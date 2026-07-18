@@ -26,6 +26,11 @@ source_files:
 publishing:
   production_url: https://project-2613.bldgtyp.com
   cloudflare_pages_project: bt-proj-2613-ayers-home
+  access:
+    mode: cloudflare_access_otp
+    allowed_emails:
+      - ed@bldgtyp.com
+      - john@bldgtyp.com
 narrative:
   certification:
     target: null
