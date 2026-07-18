@@ -1,0 +1,86 @@
+metric,role,variant_id,units,value,source_field_id,source_label,excel_row
+heat_demand,result,a,kWh,21001.8290676,certification_results.heat_demand,Heat Demand,459
+heat_demand,limit,a,kWh,5265.19399192,certification_limits.heat_demand_limit,Heat Demand Limit,363
+sensible_cooling_demand,result,a,kWh,7563.69174205,certification_results.sensible_cooling_demand,Sensible Cooling Demand,460
+sensible_cooling_demand,limit,a,kWh,5265.19399192,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,364
+latent_cooling_demand,result,a,kWh,585.402109683,certification_results.latent_cooling_demand,Latent Cooling Demand,461
+latent_cooling_demand,limit,a,kWh,-5265.19399192,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,365
+total_cooling_demand,result,a,kWh,8149.0938517,certification_results.total_cooling_demand,Total Cooling Demand,462
+total_cooling_demand,limit,a,kWh,0,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,366
+peak_heat_load,result,a,W,19415.1661062,certification_results.peak_heat_load,Peak Heat Load,463
+peak_heat_load,limit,a,W,3510.12932795,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,367
+peak_cooling_load,result,a,W,6315.58101484,certification_results.peak_cooling_load,Peak Cooling Load,464
+peak_cooling_load,limit,a,W,3100.44645111,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,368
+pe_demand,result,a,kWh,50101.8400973,certification_results.pe_demand,PE Demand,465
+pe_demand,limit,a,kWh,0,certification_limits.pe_limit,PE Limit,369
+per_demand,result,a,kWh,24211.9452547,certification_results.per_demand,PER Demand,466
+per_demand,limit,a,kWh,21060.7759677,certification_limits.per_limit,PER Limit,370
+phius_net_source_energy,limit,a,kWh,11134.7179401,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,371
+heat_demand,result,b,kWh,21001.8290676,certification_results.heat_demand,Heat Demand,459
+heat_demand,limit,b,kWh,5265.19399192,certification_limits.heat_demand_limit,Heat Demand Limit,363
+sensible_cooling_demand,result,b,kWh,7563.69174205,certification_results.sensible_cooling_demand,Sensible Cooling Demand,460
+sensible_cooling_demand,limit,b,kWh,5265.19399192,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,364
+latent_cooling_demand,result,b,kWh,585.402109683,certification_results.latent_cooling_demand,Latent Cooling Demand,461
+latent_cooling_demand,limit,b,kWh,-5265.19399192,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,365
+total_cooling_demand,result,b,kWh,8149.0938517,certification_results.total_cooling_demand,Total Cooling Demand,462
+total_cooling_demand,limit,b,kWh,0,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,366
+peak_heat_load,result,b,W,19415.1661062,certification_results.peak_heat_load,Peak Heat Load,463
+peak_heat_load,limit,b,W,3510.12932795,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,367
+peak_cooling_load,result,b,W,6315.58101484,certification_results.peak_cooling_load,Peak Cooling Load,464
+peak_cooling_load,limit,b,W,3100.44645111,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,368
+pe_demand,result,b,kWh,50101.8400973,certification_results.pe_demand,PE Demand,465
+pe_demand,limit,b,kWh,0,certification_limits.pe_limit,PE Limit,369
+per_demand,result,b,kWh,24211.9452547,certification_results.per_demand,PER Demand,466
+per_demand,limit,b,kWh,21060.7759677,certification_limits.per_limit,PER Limit,370
+phius_net_source_energy,limit,b,kWh,11134.7179401,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,371
+heat_demand,result,c,kWh,21001.8290676,certification_results.heat_demand,Heat Demand,459
+heat_demand,limit,c,kWh,5265.19399192,certification_limits.heat_demand_limit,Heat Demand Limit,363
+sensible_cooling_demand,result,c,kWh,7563.69174205,certification_results.sensible_cooling_demand,Sensible Cooling Demand,460
+sensible_cooling_demand,limit,c,kWh,5265.19399192,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,364
+latent_cooling_demand,result,c,kWh,585.402109683,certification_results.latent_cooling_demand,Latent Cooling Demand,461
+latent_cooling_demand,limit,c,kWh,-5265.19399192,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,365
+total_cooling_demand,result,c,kWh,8149.0938517,certification_results.total_cooling_demand,Total Cooling Demand,462
+total_cooling_demand,limit,c,kWh,0,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,366
+peak_heat_load,result,c,W,19415.1661062,certification_results.peak_heat_load,Peak Heat Load,463
+peak_heat_load,limit,c,W,3510.12932795,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,367
+peak_cooling_load,result,c,W,6315.58101484,certification_results.peak_cooling_load,Peak Cooling Load,464
+peak_cooling_load,limit,c,W,3100.44645111,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,368
+pe_demand,result,c,kWh,50101.8400973,certification_results.pe_demand,PE Demand,465
+pe_demand,limit,c,kWh,0,certification_limits.pe_limit,PE Limit,369
+per_demand,result,c,kWh,24211.9452547,certification_results.per_demand,PER Demand,466
+per_demand,limit,c,kWh,21060.7759677,certification_limits.per_limit,PER Limit,370
+phius_net_source_energy,limit,c,kWh,11134.7179401,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,371
+heat_demand,result,d,kWh,21001.8290676,certification_results.heat_demand,Heat Demand,459
+heat_demand,limit,d,kWh,5265.19399192,certification_limits.heat_demand_limit,Heat Demand Limit,363
+sensible_cooling_demand,result,d,kWh,7563.69174205,certification_results.sensible_cooling_demand,Sensible Cooling Demand,460
+sensible_cooling_demand,limit,d,kWh,5265.19399192,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,364
+latent_cooling_demand,result,d,kWh,585.402109683,certification_results.latent_cooling_demand,Latent Cooling Demand,461
+latent_cooling_demand,limit,d,kWh,-5265.19399192,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,365
+total_cooling_demand,result,d,kWh,8149.0938517,certification_results.total_cooling_demand,Total Cooling Demand,462
+total_cooling_demand,limit,d,kWh,0,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,366
+peak_heat_load,result,d,W,19415.1661062,certification_results.peak_heat_load,Peak Heat Load,463
+peak_heat_load,limit,d,W,3510.12932795,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,367
+peak_cooling_load,result,d,W,6315.58101484,certification_results.peak_cooling_load,Peak Cooling Load,464
+peak_cooling_load,limit,d,W,3100.44645111,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,368
+pe_demand,result,d,kWh,50101.8400973,certification_results.pe_demand,PE Demand,465
+pe_demand,limit,d,kWh,0,certification_limits.pe_limit,PE Limit,369
+per_demand,result,d,kWh,24211.9452547,certification_results.per_demand,PER Demand,466
+per_demand,limit,d,kWh,21060.7759677,certification_limits.per_limit,PER Limit,370
+phius_net_source_energy,limit,d,kWh,11134.7179401,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,371
+heat_demand,result,e,kWh,21001.8290676,certification_results.heat_demand,Heat Demand,459
+heat_demand,limit,e,kWh,5265.19399192,certification_limits.heat_demand_limit,Heat Demand Limit,363
+sensible_cooling_demand,result,e,kWh,7563.69174205,certification_results.sensible_cooling_demand,Sensible Cooling Demand,460
+sensible_cooling_demand,limit,e,kWh,5265.19399192,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,364
+latent_cooling_demand,result,e,kWh,585.402109683,certification_results.latent_cooling_demand,Latent Cooling Demand,461
+latent_cooling_demand,limit,e,kWh,-5265.19399192,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,365
+total_cooling_demand,result,e,kWh,8149.0938517,certification_results.total_cooling_demand,Total Cooling Demand,462
+total_cooling_demand,limit,e,kWh,0,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,366
+peak_heat_load,result,e,W,19415.1661062,certification_results.peak_heat_load,Peak Heat Load,463
+peak_heat_load,limit,e,W,3510.12932795,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,367
+peak_cooling_load,result,e,W,6315.58101484,certification_results.peak_cooling_load,Peak Cooling Load,464
+peak_cooling_load,limit,e,W,3100.44645111,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,368
+pe_demand,result,e,kWh,50101.8400973,certification_results.pe_demand,PE Demand,465
+pe_demand,limit,e,kWh,0,certification_limits.pe_limit,PE Limit,369
+per_demand,result,e,kWh,24211.9452547,certification_results.per_demand,PER Demand,466
+per_demand,limit,e,kWh,21060.7759677,certification_limits.per_limit,PER Limit,370
+phius_net_source_energy,limit,e,kWh,11134.7179401,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,371

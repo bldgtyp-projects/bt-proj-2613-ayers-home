@@ -1,0 +1,61 @@
+metric,variant_id,units,value,source_field_id,source_label,excel_row
+treated_floor_area,a,ft2,3778.27176487,geometry.tfa,TFA,316
+building_envelope_area,a,ft2,12801.3848406,geometry.building_envelope_area,Building Envelope Area,319
+interior_net_volume,a,ft3,966.190617361,geometry.vn50,Vn50,318
+gross_volume,a,ft3,1256.04780257,geometry.gross_volume,Gross Volume,320
+envelope_area_to_tfa,a,ft2/ft2,3.38815882956,,,
+envelope_area_to_gross_volume,a,ft2/ft3,10.1917974893,,,
+tfa_to_gross_volume,a,ft2/ft3,3.00806367173,,,
+window_area_north,a,ft2,113.968572378,geometry.window_area_north,Window Area (North),321
+window_area_east,a,ft2,204.184795166,geometry.window_area_east,Window Area (East),322
+window_area_south,a,ft2,397.218140184,geometry.window_area_south,Window Area (South),323
+window_area_west,a,ft2,152.978484379,geometry.window_area_west,Window Area (West),324
+window_area_horizontal,a,ft2,0,geometry.window_area_horiz,Window Area (Horiz),325
+treated_floor_area,b,ft2,3778.27176487,geometry.tfa,TFA,316
+building_envelope_area,b,ft2,12801.3848406,geometry.building_envelope_area,Building Envelope Area,319
+interior_net_volume,b,ft3,966.190617361,geometry.vn50,Vn50,318
+gross_volume,b,ft3,1256.04780257,geometry.gross_volume,Gross Volume,320
+envelope_area_to_tfa,b,ft2/ft2,3.38815882956,,,
+envelope_area_to_gross_volume,b,ft2/ft3,10.1917974893,,,
+tfa_to_gross_volume,b,ft2/ft3,3.00806367173,,,
+window_area_north,b,ft2,113.968572378,geometry.window_area_north,Window Area (North),321
+window_area_east,b,ft2,204.184795166,geometry.window_area_east,Window Area (East),322
+window_area_south,b,ft2,397.218140184,geometry.window_area_south,Window Area (South),323
+window_area_west,b,ft2,152.978484379,geometry.window_area_west,Window Area (West),324
+window_area_horizontal,b,ft2,0,geometry.window_area_horiz,Window Area (Horiz),325
+treated_floor_area,c,ft2,3778.27176487,geometry.tfa,TFA,316
+building_envelope_area,c,ft2,12801.3848406,geometry.building_envelope_area,Building Envelope Area,319
+interior_net_volume,c,ft3,966.190617361,geometry.vn50,Vn50,318
+gross_volume,c,ft3,1256.04780257,geometry.gross_volume,Gross Volume,320
+envelope_area_to_tfa,c,ft2/ft2,3.38815882956,,,
+envelope_area_to_gross_volume,c,ft2/ft3,10.1917974893,,,
+tfa_to_gross_volume,c,ft2/ft3,3.00806367173,,,
+window_area_north,c,ft2,113.968572378,geometry.window_area_north,Window Area (North),321
+window_area_east,c,ft2,204.184795166,geometry.window_area_east,Window Area (East),322
+window_area_south,c,ft2,397.218140184,geometry.window_area_south,Window Area (South),323
+window_area_west,c,ft2,152.978484379,geometry.window_area_west,Window Area (West),324
+window_area_horizontal,c,ft2,0,geometry.window_area_horiz,Window Area (Horiz),325
+treated_floor_area,d,ft2,3778.27176487,geometry.tfa,TFA,316
+building_envelope_area,d,ft2,12801.3848406,geometry.building_envelope_area,Building Envelope Area,319
+interior_net_volume,d,ft3,966.190617361,geometry.vn50,Vn50,318
+gross_volume,d,ft3,1256.04780257,geometry.gross_volume,Gross Volume,320
+envelope_area_to_tfa,d,ft2/ft2,3.38815882956,,,
+envelope_area_to_gross_volume,d,ft2/ft3,10.1917974893,,,
+tfa_to_gross_volume,d,ft2/ft3,3.00806367173,,,
+window_area_north,d,ft2,113.968572378,geometry.window_area_north,Window Area (North),321
+window_area_east,d,ft2,204.184795166,geometry.window_area_east,Window Area (East),322
+window_area_south,d,ft2,397.218140184,geometry.window_area_south,Window Area (South),323
+window_area_west,d,ft2,152.978484379,geometry.window_area_west,Window Area (West),324
+window_area_horizontal,d,ft2,0,geometry.window_area_horiz,Window Area (Horiz),325
+treated_floor_area,e,ft2,3778.27176487,geometry.tfa,TFA,316
+building_envelope_area,e,ft2,12801.3848406,geometry.building_envelope_area,Building Envelope Area,319
+interior_net_volume,e,ft3,966.190617361,geometry.vn50,Vn50,318
+gross_volume,e,ft3,1256.04780257,geometry.gross_volume,Gross Volume,320
+envelope_area_to_tfa,e,ft2/ft2,3.38815882956,,,
+envelope_area_to_gross_volume,e,ft2/ft3,10.1917974893,,,
+tfa_to_gross_volume,e,ft2/ft3,3.00806367173,,,
+window_area_north,e,ft2,113.968572378,geometry.window_area_north,Window Area (North),321
+window_area_east,e,ft2,204.184795166,geometry.window_area_east,Window Area (East),322
+window_area_south,e,ft2,397.218140184,geometry.window_area_south,Window Area (South),323
+window_area_west,e,ft2,152.978484379,geometry.window_area_west,Window Area (West),324
+window_area_horizontal,e,ft2,0,geometry.window_area_horiz,Window Area (Horiz),325

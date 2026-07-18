@@ -1,9 +1,55 @@
 {
-  "status": "pending",
-  "project": {
-    "slug": "0000-example-report",
-    "name": "Example Passive House Report"
-  },
-  "schema_version": "0.1.0",
-  "variants": []
+  "schema_version": "1.0.0",
+  "phpp_version": "10.6",
+  "generated_at": "2026-07-18T20:54:04.330806Z",
+  "generator": "btwr@0.0.1",
+  "status": "ok",
+  "variants": [
+    {
+      "id": "a",
+      "name": "A",
+      "order": 0,
+      "color": "auto",
+      "recommended": false,
+      "source_column": "G"
+    },
+    {
+      "id": "b",
+      "name": "B",
+      "order": 1,
+      "color": "auto",
+      "recommended": false,
+      "source_column": "H"
+    },
+    {
+      "id": "c",
+      "name": "C",
+      "order": 2,
+      "color": "auto",
+      "recommended": false,
+      "source_column": "I"
+    },
+    {
+      "id": "d",
+      "name": "D",
+      "order": 3,
+      "color": "auto",
+      "recommended": false,
+      "source_column": "J"
+    },
+    {
+      "id": "e",
+      "name": "E",
+      "order": 4,
+      "color": "auto",
+      "recommended": true,
+      "source_column": "K"
+    }
+  ],
+  "recommended_variant_id": "e",
+  "source_workbook": {
+    "path": "/Users/em/Dropbox/bldgtyp/2613 Ayers Home/07_PHPP/2613-Ayers-Home-260717.xlsx",
+    "sha256": "5b96327ad9ac67988c9b492c2b112cdf2269c7e5e2bac8d4746726f64570cedc",
+    "size_bytes": 12930267
+  }
 }
