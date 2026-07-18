@@ -1,0 +1,81 @@
+schema_version: 0.2.0
+slug: project-2613
+project_title: Ayers Home
+client_name: Of Possible Architecture
+building_name: Home
+phase: Design Analysis
+report_date: '2026-07-18'
+prepared_by: bldgtyp, llc
+contact_email: ed@bldgtyp.com
+target_standard: TBD
+certification_program: TBD
+certification_path: TBD
+recommended_variant_id: null
+building:
+  address: TBD
+  city: TBD
+  state: TBD
+  climate_zone: TBD
+  building_type: TBD
+  total_num_occupants: null
+source_files:
+  phpp_path: ../07_PHPP/2613-Ayers-Home-260717.xlsx
+  cad_files_received_date: null
+  data_dir: data
+  assets_dir: public/assets
+publishing:
+  production_url: https://project-2613.bldgtyp.com
+  cloudflare_pages_project: bt-proj-2613-ayers-home
+narrative:
+  certification:
+    target: null
+    ph_ach_limit: null
+    phi_lcd_limit: null
+    enph_hd_limit: null
+    enph_per_limit: null
+    enph_bg_limit: null
+    enph_ag_ext_limit: null
+    enph_ag_int_limit: null
+    enph_uw_limit: null
+    phius_hd_limit: null
+    phius_cd_limit: null
+    phius_hl_limit: null
+    phius_cl_limit: null
+    phius_nse_limit: null
+    phius_cfm50_limit: null
+  climate:
+    weather_station_name: null
+    weather_station_url: null
+    state_name: null
+    state_name_abbreviation: null
+    ashrae_location_name: null
+    ashrae_design_temps: null
+    ashrae_winter_design_temp_F: null
+    ashrae_winter_design_temp_C: null
+  energy_code:
+    name: null
+    zone: null
+    link: null
+    code_base_url: null
+    code_airtightness_url: null
+    u_val_link: null
+    ach_link: null
+    ach_limit: null
+    window_min_u_value: null
+  co2:
+    subregion_name: null
+    epa_subgrid_name: null
+    occupancy: null
+    target_tons: null
+    taget_co2_per_person: null
+  windows:
+    ph_window_u_value: null
+    ph_window_r_value: null
+    comfort_target_r_value: null
+    comfort_target_u_value: null
+  mechanical:
+    erv:
+      manufacturer_name: null
+      type_name: null
+      link: null
+  user_defined: {}
