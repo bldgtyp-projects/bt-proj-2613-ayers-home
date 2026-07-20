@@ -1,0 +1,39 @@
+---
+kicker: "01"
+title: "Assessment"
+dek: "Frame the outage simulations, accepted criteria, and limits of the available outputs."
+---
+
+This resilience assessment uses hourly EnergyPlus outputs prepared through the Honeybee-REVIVE workflow and evaluates
+the thermal conditions during simulated loss of utility service. The charts retain the full 240-hour simulation record
+and shade the declared 168-hour (seven-day) outage interval. The first 24 hours precede the outage and the final 48 hours
+follow it.
+
+The criteria shown here follow **Phius REVIVE 2024 v24.1.1**. They are reported as design-analysis results, not as a
+Phius certification determination. Each result is limited to what the staged source series can prove:
+
+- the Summer chart evaluates hours in the Heat Index Danger and Extreme Danger categories, but does not calculate the
+  separate Mora deadly-day criterion;
+- the Winter chart evaluates SET degree-hours below 54°F (12.22°C), but does not infer the separate zero-hours-below-36°F
+  air-temperature criterion from SET.
+
+The exact CSVs used by the charts are retained as report downloads, together with source-simulation hashes and generator
+versions in the Resilience sidecar manifest.
+
+<div class="btwr-callout btwr-callout--critical">
+  <strong>Design implication</strong>
+  <span>
+    The Summer Heat Index criterion does not pass in the current simulation. Passive solar control, night ventilation,
+    and any on-site-powered cooling strategy should be revised and re-simulated before treating the design as thermally
+    resilient during the modeled extreme-week outage.
+  </span>
+</div>
+
+Kitchen exhaust and makeup-air operation should also be coordinated with the outage ventilation strategy. The diagram
+below shows the current makeup-air concept; controls and available on-site power must be reconciled with the resilience
+operating mode.
+
+<img
+  src="/assets/mechanical/muas-diagram.png"
+  alt="Diagram showing the project's makeup-air system with ducting and a heating element."
+/>

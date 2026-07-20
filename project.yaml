@@ -34,6 +34,9 @@ publishing:
     - carlos@ofpossible.com
     - matthew@ofpossible.com
     - vincent@ofpossible.com
+custom_pages:
+- slug: resilience
+  label: Resilience
 narrative:
   certification:
     target: null
