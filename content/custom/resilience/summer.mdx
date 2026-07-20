@@ -1,0 +1,21 @@
+---
+kicker: "02"
+title: "Summer Heat Index"
+dek: "Track the occupied-zone Heat Index through the declared seven-day outage."
+extras:
+  - HeatIndexChart
+---
+
+The whole-house Heat Index series records **35 hours in the Danger category** and **zero hours in Extreme Danger** during
+the declared outage. Because REVIVE v24.1.1 requires zero hours in both categories, the current model does not pass the
+Heat Index criterion.
+
+[Download the Summer Heat Index source CSV](/downloads/resilience/summer-heat-index.csv)
+
+<div class="btwr-callout btwr-callout--critical">
+  <strong>Result</strong>
+  <span>
+    The current Summer outage case requires design revision and re-simulation. This result addresses the Heat Index
+    category criterion only; temperature and relative-humidity series are still needed to evaluate Mora deadly days.
+  </span>
+</div>
