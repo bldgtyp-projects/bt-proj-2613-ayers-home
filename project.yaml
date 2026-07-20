@@ -7,19 +7,19 @@ phase: Design Analysis
 report_date: '2026-07-18'
 prepared_by: bldgtyp, llc
 contact_email: ed@bldgtyp.com
-target_standard: TBD
-certification_program: TBD
-certification_path: TBD
+target_standard: Passive House
+certification_program: Design analysis only
+certification_path: Not submitted
 recommended_variant_id: null
 building:
-  address: TBD
-  city: TBD
-  state: TBD
-  climate_zone: TBD
-  building_type: TBD
-  total_num_occupants: null
+  address: 25 Ayers Road
+  city: Westerly
+  state: RI
+  climate_zone: ASHRAE 5A
+  building_type: single-family residential
+  total_num_occupants: 6
 source_files:
-  phpp_path: ../07_PHPP/2613-Ayers-Home-260717.xlsx
+  phpp_path: ../07_PHPP/2613-Ayers-Home-260720.xlsx
   cad_files_received_date: null
   data_dir: data
   assets_dir: public/assets
@@ -29,12 +29,12 @@ publishing:
   access:
     mode: cloudflare_access_otp
     allowed_emails:
-      - ed@bldgtyp.com
-      - john@bldgtyp.com
+    - ed@bldgtyp.com
+    - john@bldgtyp.com
 narrative:
   certification:
     target: null
-    ph_ach_limit: null
+    ph_ach_limit: '0.6'
     phi_lcd_limit: null
     enph_hd_limit: null
     enph_per_limit: null
@@ -42,42 +42,42 @@ narrative:
     enph_ag_ext_limit: null
     enph_ag_int_limit: null
     enph_uw_limit: null
-    phius_hd_limit: null
-    phius_cd_limit: null
-    phius_hl_limit: null
-    phius_cl_limit: null
-    phius_nse_limit: null
-    phius_cfm50_limit: null
+    phius_hd_limit: '9.7'
+    phius_cd_limit: '8.2'
+    phius_hl_limit: '6.5'
+    phius_cl_limit: '3.3'
+    phius_nse_limit: '5725'
+    phius_cfm50_limit: '0.06'
   climate:
-    weather_station_name: null
-    weather_station_url: null
-    state_name: null
-    state_name_abbreviation: null
-    ashrae_location_name: null
-    ashrae_design_temps: null
-    ashrae_winter_design_temp_F: null
-    ashrae_winter_design_temp_C: null
+    weather_station_name: 'US0066a-Providence :: 725070 :: PHPP (+2K summer correction)'
+    weather_station_url: https://energyplus-weather.s3.amazonaws.com/north_and_central_america_wmo_region_4/USA/RI/USA_RI_Providence-T.F.Green.State.AP.725070_TMY3/USA_RI_Providence-T.F.Green.State.AP.725070_TMY3.zip
+    state_name: Rhode Island
+    state_name_abbreviation: RI
+    ashrae_location_name: Zone 5(A)
+    ashrae_design_temps: "8.5\xB0F (-13.1\xB0C)"
+    ashrae_winter_design_temp_F: '8.5'
+    ashrae_winter_design_temp_C: '-13.1'
   energy_code:
-    name: null
-    zone: null
-    link: null
-    code_base_url: null
-    code_airtightness_url: null
-    u_val_link: null
-    ach_link: null
-    ach_limit: null
-    window_min_u_value: null
+    name: RI Energy Conservation Code 2024
+    zone: Zone 5(A)
+    link: https://rules.sos.ri.gov/regulations/part/510-00-00-8
+    code_base_url: https://up.codes/viewer/rhode_island/iecc-2024
+    code_airtightness_url: https://up.codes/viewer/rhode_island/iecc-2024/chapter/RE_4/re-residential-energy-efficiency
+    u_val_link: https://up.codes/viewer/rhode_island/iecc-2024/chapter/RE_4/re-residential-energy-efficiency
+    ach_link: https://up.codes/viewer/rhode_island/iecc-2024/chapter/RE_4/re-residential-energy-efficiency
+    ach_limit: '3.0'
+    window_min_u_value: '0.28'
   co2:
-    subregion_name: null
-    epa_subgrid_name: null
-    occupancy: null
-    target_tons: null
-    taget_co2_per_person: null
+    subregion_name: New England eGRID (2023)
+    epa_subgrid_name: New England (NEWE)
+    occupancy: '6'
+    target_tons: '6'
+    taget_co2_per_person: '4.0'
   windows:
     ph_window_u_value: null
     ph_window_r_value: null
-    comfort_target_r_value: null
-    comfort_target_u_value: null
+    comfort_target_r_value: '5.6'
+    comfort_target_u_value: '0.18'
   mechanical:
     erv:
       manufacturer_name: null

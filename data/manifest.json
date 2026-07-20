@@ -1,55 +1,63 @@
 {
   "schema_version": "1.0.0",
   "phpp_version": "10.6",
-  "generated_at": "2026-07-18T20:54:04.330806Z",
+  "generated_at": "2026-07-20T16:37:40.497966Z",
   "generator": "btwr@0.0.1",
   "status": "ok",
   "variants": [
     {
-      "id": "a",
-      "name": "A",
+      "id": "code_minimum",
+      "name": "Code Minimum",
       "order": 0,
       "color": "auto",
       "recommended": false,
       "source_column": "G"
     },
     {
-      "id": "b",
-      "name": "B",
+      "id": "improved_envelope",
+      "name": "Improved Envelope",
       "order": 1,
       "color": "auto",
       "recommended": false,
       "source_column": "H"
     },
     {
-      "id": "c",
-      "name": "C",
+      "id": "as_drawn_envelope",
+      "name": "As-Drawn Envelope",
       "order": 2,
       "color": "auto",
       "recommended": false,
       "source_column": "I"
     },
     {
-      "id": "d",
-      "name": "D",
+      "id": "basic_erv",
+      "name": "+ Basic ERV",
       "order": 3,
       "color": "auto",
       "recommended": false,
       "source_column": "J"
     },
     {
-      "id": "e",
-      "name": "E",
+      "id": "elec_heat_pumps",
+      "name": "+ Elec. Heat Pumps",
       "order": 4,
       "color": "auto",
-      "recommended": true,
+      "recommended": false,
       "source_column": "K"
+    },
+    {
+      "id": "passive_house",
+      "name": "Passive House",
+      "order": 5,
+      "color": "auto",
+      "recommended": true,
+      "source_column": "L"
     }
   ],
-  "recommended_variant_id": "e",
+  "recommended_variant_id": "passive_house",
   "source_workbook": {
-    "path": "/Users/em/Dropbox/bldgtyp/2613 Ayers Home/07_PHPP/2613-Ayers-Home-260717.xlsx",
-    "sha256": "5b96327ad9ac67988c9b492c2b112cdf2269c7e5e2bac8d4746726f64570cedc",
-    "size_bytes": 12930267
+    "path": "/Users/em/Dropbox/bldgtyp/2613 Ayers Home/07_PHPP/2613-Ayers-Home-260720.xlsx",
+    "sha256": "2eeda0cad698771f33520cdaa0777cd7e84f533c13ba86c5bfdc31fb6481561a",
+    "size_bytes": 12953249
   }
 }
