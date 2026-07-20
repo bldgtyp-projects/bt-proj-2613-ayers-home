@@ -31,6 +31,9 @@ publishing:
     allowed_emails:
     - ed@bldgtyp.com
     - john@bldgtyp.com
+    - carlos@ofpossible.com
+    - matthew@ofpossible.com
+    - vincent@ofpossible.com
 narrative:
   certification:
     target: null
