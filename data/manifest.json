@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "phpp_version": "10.6",
-  "generated_at": "2026-07-20T16:37:40.497966Z",
+  "generated_at": "2026-07-21T17:09:00.771845Z",
   "generator": "btwr@0.0.1",
   "status": "ok",
   "variants": [
@@ -56,8 +56,8 @@
   ],
   "recommended_variant_id": "passive_house",
   "source_workbook": {
-    "path": "/Users/em/Dropbox/bldgtyp/2613 Ayers Home/07_PHPP/2613-Ayers-Home-260720.xlsx",
-    "sha256": "2eeda0cad698771f33520cdaa0777cd7e84f533c13ba86c5bfdc31fb6481561a",
-    "size_bytes": 12953249
+    "path": "/Users/em/Dropbox/bldgtyp/2613 Ayers Home/07_PHPP/2613-Ayers-Home-260721.xlsx",
+    "sha256": "6a6ed9df511b12f913f6090c370c5bf20d458e41543c89f0cd7f316670a13cd1",
+    "size_bytes": 13320535
   }
 }

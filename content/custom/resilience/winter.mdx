@@ -2,19 +2,41 @@
 kicker: "03"
 title: "Winter Standard Effective Temperature"
 dek: "Evaluate the SET deficit below 54°F across the declared seven-day outage."
-extras:
-  - SetTemperatureChart
 ---
 
-All six modeled People-keyed SET series remain below the REVIVE v24.1.1 limit of **120 K·h (216°F·h) below 54°F**. The
-calculated values range from **46.1 K·h to 77.4 K·h**, so each plotted series passes the SET degree-hour criterion.
+import winterSetTemperatureHtml from "./winter_SET_temperature.html?raw";
+import winterSetTemperatureEnhancement from "./winter_SET_temperature.js?raw";
 
-[Download the Winter SET source CSV](/downloads/resilience/winter-set.csv)
+For assessing the winter resiliency, the **Phius REVIVE** protocol uses the [Standard Effective Temperature (SET)](https://bigladdersoftware.com/epx/docs/9-5/engineering-reference/resilience-metrics.html#set-hour) metric 
+in order to evaluate zone habitability during the stress-period. In particular, to comply with the **Phius REVIVE** standard, 
+it is required that all zones exhibit:
+
+- 0 hours below 2 °C [36°F] **SET**
+- < 216 °F-Hours below 12 °C [54°F] **SET**
 
 <div class="btwr-callout">
   <strong>Result</strong>
   <span>
-    The current Winter case passes the SET degree-hour criterion for every plotted series. A separate zone
-    air-temperature output is required before claiming the v24.1.1 zero-hours-below-36°F criterion.
+    As shown below, by virtue of the exceptional well insulated envelope, high quality glazing, and good airtightness - 
+this home never shows zone interior temperatures dropping below 14°C [57 °F]. This excellent thermal performance shows 
+that the home would be safe during even an extended period of severe weather, and even without any active heating of any 
+form. Based on these results, it does not appear that any modifications are recommended at this time.
   </span>
 </div>
+
+[Download the Winter SET source CSV](/downloads/resilience/winter-set.csv)
+
+<div
+  class="btwr-plotly-embed"
+  role="group"
+  aria-label="Winter Standard Effective Temperature, dry-bulb temperature, and relative humidity plots"
+  set:html={winterSetTemperatureHtml}
+/>
+
+<script is:inline set:html={winterSetTemperatureEnhancement}></script>
+
+### More Details for the Winter Period:
+- [SET Temperatures](/downloads/resilience/winter_SET_temperature.html)
+- [Outdoor Environment](/downloads/resilience/winter_outdoor_environment.html)
+- [Fresh Air Ventilation](/downloads/resilience/winter_ventilation.html)
+- [Energy Flow](/downloads/resilience/winter_energy_flow.html)

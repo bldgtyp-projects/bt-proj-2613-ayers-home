@@ -1,24 +1,30 @@
 ---
 kicker: "01"
-title: "Assessment"
+title: "Resilience Assessment"
 dek: "Frame the outage simulations, accepted criteria, and limits of the available outputs."
 ---
 
-This resilience assessment uses hourly EnergyPlus outputs prepared through the Honeybee-REVIVE workflow and evaluates
-the thermal conditions during simulated loss of utility service. The charts retain the full 240-hour simulation record
-and shade the declared 168-hour (seven-day) outage interval. The first 24 hours precede the outage and the final 48 hours
-follow it.
+In addition to the whole-building annual-energy consumption model created using the 
+[Passive House Planning Package (PHPP)](https://passivehouse.com/en/home/planning-tools/), the end-of-row-unit was 
+also assessed using a detailed hourly model for ‘resiliency’ during two test-periods:
 
-The criteria shown here follow **Phius REVIVE 2024 v24.1.1**. They are reported as design-analysis results, not as a
-Phius certification determination. Each result is limited to what the staged source series can prove:
+1. The home was simulated during a **summer heat-wave event** along with a power-outage which lasts for a full week.
+2. The home was simulated during a **winter storm event** along with a power-outage which lasts for a full week.
 
-- the Summer chart evaluates hours in the Heat Index Danger and Extreme Danger categories, but does not calculate the
-  separate Mora deadly-day criterion;
-- the Winter chart evaluates SET degree-hours below 54°F (12.22°C), but does not infer the separate zero-hours-below-36°F
-  air-temperature criterion from SET.
+These ‘stress-test’ simulations evaluate the ability of the building to maintain safe and healthy interior conditions while 
+relying only on ‘Passive’ measures alone, as all space conditioning equipment is considered inoperable for these test-periods. 
+These test-periods align with the [Phius REVIVE protocol](https://www.phius.org/phius-revive-2024), including all rules 
+which define occupancy, weather-conditions, and habitability thresholds. Note in particular that test-period weather 
+conditions are established which follow the **Phius REVIVE** requirements.
 
-The exact CSVs used by the charts are retained as report downloads, together with source-simulation hashes and generator
-versions in the Resilience sidecar manifest.
+- [Phius REVIVE 2024 Standard v24.1.1.pdf (7.7 MB)](https://www.phius.org/phius-revive-2024-standard-document)
+
+For all the simulation results shown, the building is configured using the ‘Passive House’ variant attributes for envelope 
+elements. See the [Variants section](/energy_model/#model-variants) for more information on the specific building attribute 
+values used. For the simulation results shown below, only the ’end-of-row’ unit was simulated, as this represents the most 
+challenging case with the most exposure (walls, windows). The results shown can be understood as indicative of the performance 
+of each of the other homes as well. For the simulation in this case, the model is split into zones by floor level with 
+the resilience results being reported for each zone.
 
 <div class="btwr-callout btwr-callout--critical">
   <strong>Design implication</strong>
@@ -29,11 +35,7 @@ versions in the Resilience sidecar manifest.
   </span>
 </div>
 
-Kitchen exhaust and makeup-air operation should also be coordinated with the outage ventilation strategy. The diagram
-below shows the current makeup-air concept; controls and available on-site power must be reconciled with the resilience
-operating mode.
-
 <img
-  src="/assets/mechanical/muas-diagram.png"
-  alt="Diagram showing the project's makeup-air system with ducting and a heating element."
+  src="/assets/resilience/zone-diagram.optimized.png"
+  alt="Diagram showing the EnergyPlus Phius REVIVE Model Zoning with labels."
 />

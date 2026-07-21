@@ -2,20 +2,40 @@
 kicker: "02"
 title: "Summer Heat Index"
 dek: "Track the occupied-zone Heat Index through the declared seven-day outage."
-extras:
-  - HeatIndexChart
 ---
 
-The whole-house Heat Index series records **35 hours in the Danger category** and **zero hours in Extreme Danger** during
-the declared outage. Because REVIVE v24.1.1 requires zero hours in both categories, the current model does not pass the
-Heat Index criterion.
+import summerHeatIndexHtml from "./summer_heat_index.html?raw";
+import summerHeatIndexEnhancement from "./summer_heat_index.js?raw";
 
-[Download the Summer Heat Index source CSV](/downloads/resilience/summer-heat-index.csv)
+The **Phius REVIVE** protocol suggests that during the simulation test-period the [Heat Index](https://bigladdersoftware.com/epx/docs/22-2/engineering-reference/resilience-metrics.html#heat-index) temperature should be 
+used to evaluate the overall perceived thermal habitability of the zone. In the results shown below, the Heat Index 
+for each zone is plotted for the entire test-period summer week. Minimum compliance with the **Phius REVIVE** standard 
+requires that the building demonstrate:
+
+- 0-hours of **Heat Index** in the ‘Extreme Danger’ zone ( > 52 °C [125 °F]).
 
 <div class="btwr-callout btwr-callout--critical">
   <strong>Result</strong>
   <span>
-    The current Summer outage case requires design revision and re-simulation. This result addresses the Heat Index
-    category criterion only; temperature and relative-humidity series are still needed to evaluate Mora deadly days.
+As shown, the ‘Passive House’ variant the building does comply with this threshold, although it is notable 
+that all zones show a significant amount of time in the ‘Danger’ zone, which still may result in adverse health 
+impacts, in particular for sensitive residents.
   </span>
 </div>
+
+[Download the Summer Heat Index source CSV](/downloads/resilience/summer-heat-index.csv)
+
+<div
+  class="btwr-plotly-embed"
+  role="group"
+  aria-label="Summer Heat Index, dry-bulb temperature, and relative humidity plots"
+  set:html={summerHeatIndexHtml}
+/>
+
+<script is:inline set:html={summerHeatIndexEnhancement}></script>
+
+### More Details for the Summer Period:
+- [Heat Index](/downloads/resilience/summer_heat_index.html)
+- [Outdoor Environment](/downloads/resilience/summer_outdoor_environment.html)
+- [Fresh Air Ventilation](/downloads/resilience/summer_ventilation.html)
+- [Energy Flow](/downloads/resilience/summer_energy_flow.html)
