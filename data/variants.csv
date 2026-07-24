@@ -89,6 +89,24 @@ envelope,envelope.roof,FC-1,as_drawn_envelope,As-Drawn Envelope,FC-1,hr-ft2-F/Bt
 envelope,envelope.roof,FC-1,basic_erv,+ Basic ERV,FC-1,hr-ft2-F/Btu,8.6,332
 envelope,envelope.roof,FC-1,elec_heat_pumps,+ Elec. Heat Pumps,FC-1,hr-ft2-F/Btu,8.6,332
 envelope,envelope.roof,FC-1,passive_house,Passive House,FC-1,hr-ft2-F/Btu,15.2,332
+envelope,envelope.assembly_06,FC-2,code_minimum,Code Minimum,FC-2,hr-ft2-F/Btu,30.3,333
+envelope,envelope.assembly_06,FC-2,improved_envelope,Improved Envelope,FC-2,hr-ft2-F/Btu,40,333
+envelope,envelope.assembly_06,FC-2,as_drawn_envelope,As-Drawn Envelope,FC-2,hr-ft2-F/Btu,58.6,333
+envelope,envelope.assembly_06,FC-2,basic_erv,+ Basic ERV,FC-2,hr-ft2-F/Btu,58.6,333
+envelope,envelope.assembly_06,FC-2,elec_heat_pumps,+ Elec. Heat Pumps,FC-2,hr-ft2-F/Btu,58.6,333
+envelope,envelope.assembly_06,FC-2,passive_house,Passive House,FC-2,hr-ft2-F/Btu,58.6,333
+envelope,envelope.assembly_07,IW-5,code_minimum,Code Minimum,IW-5,hr-ft2-F/Btu,22.2,334
+envelope,envelope.assembly_07,IW-5,improved_envelope,Improved Envelope,IW-5,hr-ft2-F/Btu,28,334
+envelope,envelope.assembly_07,IW-5,as_drawn_envelope,As-Drawn Envelope,IW-5,hr-ft2-F/Btu,34.4,334
+envelope,envelope.assembly_07,IW-5,basic_erv,+ Basic ERV,IW-5,hr-ft2-F/Btu,34.4,334
+envelope,envelope.assembly_07,IW-5,elec_heat_pumps,+ Elec. Heat Pumps,IW-5,hr-ft2-F/Btu,34.4,334
+envelope,envelope.assembly_07,IW-5,passive_house,Passive House,IW-5,hr-ft2-F/Btu,34.4,334
+envelope,envelope.assembly_08,RC-1,code_minimum,Code Minimum,RC-1,hr-ft2-F/Btu,38.5,335
+envelope,envelope.assembly_08,RC-1,improved_envelope,Improved Envelope,RC-1,hr-ft2-F/Btu,45,335
+envelope,envelope.assembly_08,RC-1,as_drawn_envelope,As-Drawn Envelope,RC-1,hr-ft2-F/Btu,57,335
+envelope,envelope.assembly_08,RC-1,basic_erv,+ Basic ERV,RC-1,hr-ft2-F/Btu,57,335
+envelope,envelope.assembly_08,RC-1,elec_heat_pumps,+ Elec. Heat Pumps,RC-1,hr-ft2-F/Btu,57,335
+envelope,envelope.assembly_08,RC-1,passive_house,Passive House,RC-1,hr-ft2-F/Btu,57,335
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),code_minimum,Code Minimum,Thermal Bridge Allowance (% increase),% Increase,0.2,343
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),improved_envelope,Improved Envelope,Thermal Bridge Allowance (% increase),% Increase,0.1,343
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),as_drawn_envelope,As-Drawn Envelope,Thermal Bridge Allowance (% increase),% Increase,0.1,343
