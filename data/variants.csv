@@ -88,7 +88,7 @@ envelope,envelope.roof,FC-1,improved_envelope,Improved Envelope,FC-1,hr-ft2-F/Bt
 envelope,envelope.roof,FC-1,as_drawn_envelope,As-Drawn Envelope,FC-1,hr-ft2-F/Btu,8.6,332
 envelope,envelope.roof,FC-1,basic_erv,+ Basic ERV,FC-1,hr-ft2-F/Btu,8.6,332
 envelope,envelope.roof,FC-1,elec_heat_pumps,+ Elec. Heat Pumps,FC-1,hr-ft2-F/Btu,8.6,332
-envelope,envelope.roof,FC-1,passive_house,Passive House,FC-1,hr-ft2-F/Btu,20,332
+envelope,envelope.roof,FC-1,passive_house,Passive House,FC-1,hr-ft2-F/Btu,15.2,332
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),code_minimum,Code Minimum,Thermal Bridge Allowance (% increase),% Increase,0.2,343
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),improved_envelope,Improved Envelope,Thermal Bridge Allowance (% increase),% Increase,0.1,343
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),as_drawn_envelope,As-Drawn Envelope,Thermal Bridge Allowance (% increase),% Increase,0.1,343
@@ -128,8 +128,8 @@ systems,systems.ventilation_system,Ventilation System,passive_house,Passive Hous
 systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,code_minimum,Code Minimum,Ventilation Unit HR Efficiency,%,,351
 systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,improved_envelope,Improved Envelope,Ventilation Unit HR Efficiency,%,,351
 systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,as_drawn_envelope,As-Drawn Envelope,Ventilation Unit HR Efficiency,%,,351
-systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,basic_erv,+ Basic ERV,Ventilation Unit HR Efficiency,%,0.7321240348,351
-systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,elec_heat_pumps,+ Elec. Heat Pumps,Ventilation Unit HR Efficiency,%,0.7321240348,351
+systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,basic_erv,+ Basic ERV,Ventilation Unit HR Efficiency,%,0.732642696309,351
+systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,elec_heat_pumps,+ Elec. Heat Pumps,Ventilation Unit HR Efficiency,%,0.732642696309,351
 systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,passive_house,Passive House,Ventilation Unit HR Efficiency,%,0.775876676196,351
 systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,code_minimum,Code Minimum,Ventilation Unit ER Efficiency,%,,352
 systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,improved_envelope,Improved Envelope,Ventilation Unit ER Efficiency,%,,352
@@ -140,8 +140,8 @@ systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,pa
 systems,systems.system_hr_efficiency,System HR Efficiency,code_minimum,Code Minimum,System HR Efficiency,%,,353
 systems,systems.system_hr_efficiency,System HR Efficiency,improved_envelope,Improved Envelope,System HR Efficiency,%,,353
 systems,systems.system_hr_efficiency,System HR Efficiency,as_drawn_envelope,As-Drawn Envelope,System HR Efficiency,%,,353
-systems,systems.system_hr_efficiency,System HR Efficiency,basic_erv,+ Basic ERV,System HR Efficiency,%,0.7321240348,353
-systems,systems.system_hr_efficiency,System HR Efficiency,elec_heat_pumps,+ Elec. Heat Pumps,System HR Efficiency,%,0.7321240348,353
+systems,systems.system_hr_efficiency,System HR Efficiency,basic_erv,+ Basic ERV,System HR Efficiency,%,0.732642696309,353
+systems,systems.system_hr_efficiency,System HR Efficiency,elec_heat_pumps,+ Elec. Heat Pumps,System HR Efficiency,%,0.732642696309,353
 systems,systems.system_hr_efficiency,System HR Efficiency,passive_house,Passive House,System HR Efficiency,%,0.775876676196,353
 systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),code_minimum,Code Minimum,Cold Air Duct Length (ea),m,5,354
 systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),improved_envelope,Improved Envelope,Cold Air Duct Length (ea),m,5,354
@@ -230,33 +230,33 @@ certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Ne
 heating_demand,heating_demand.walls_ag,Walls (AG),code_minimum,Code Minimum,Walls (AG),kWh,8955.21878415,376
 heating_demand,heating_demand.walls_ag,Walls (AG),improved_envelope,Improved Envelope,Walls (AG),kWh,7083.3651888,376
 heating_demand,heating_demand.walls_ag,Walls (AG),as_drawn_envelope,As-Drawn Envelope,Walls (AG),kWh,5052.18292896,376
-heating_demand,heating_demand.walls_ag,Walls (AG),basic_erv,+ Basic ERV,Walls (AG),kWh,5075.5657144,376
-heating_demand,heating_demand.walls_ag,Walls (AG),elec_heat_pumps,+ Elec. Heat Pumps,Walls (AG),kWh,5075.5657144,376
-heating_demand,heating_demand.walls_ag,Walls (AG),passive_house,Passive House,Walls (AG),kWh,5089.90415731,376
+heating_demand,heating_demand.walls_ag,Walls (AG),basic_erv,+ Basic ERV,Walls (AG),kWh,5075.60573326,376
+heating_demand,heating_demand.walls_ag,Walls (AG),elec_heat_pumps,+ Elec. Heat Pumps,Walls (AG),kWh,5075.60573326,376
+heating_demand,heating_demand.walls_ag,Walls (AG),passive_house,Passive House,Walls (AG),kWh,5090.3375712,376
 heating_demand,heating_demand.walls_bg,Walls (BG),code_minimum,Code Minimum,Walls (BG),kWh,702.644159643,377
 heating_demand,heating_demand.walls_bg,Walls (BG),improved_envelope,Improved Envelope,Walls (BG),kWh,547.706852461,377
 heating_demand,heating_demand.walls_bg,Walls (BG),as_drawn_envelope,As-Drawn Envelope,Walls (BG),kWh,637.078940336,377
 heating_demand,heating_demand.walls_bg,Walls (BG),basic_erv,+ Basic ERV,Walls (BG),kWh,637.078940336,377
 heating_demand,heating_demand.walls_bg,Walls (BG),elec_heat_pumps,+ Elec. Heat Pumps,Walls (BG),kWh,637.078940336,377
-heating_demand,heating_demand.walls_bg,Walls (BG),passive_house,Passive House,Walls (BG),kWh,880.48314267,377
+heating_demand,heating_demand.walls_bg,Walls (BG),passive_house,Passive House,Walls (BG),kWh,808.370754307,377
 heating_demand,heating_demand.roofs,Roofs,code_minimum,Code Minimum,Roofs,kWh,5716.53391644,378
 heating_demand,heating_demand.roofs,Roofs,improved_envelope,Improved Envelope,Roofs,kWh,4869.46109289,378
 heating_demand,heating_demand.roofs,Roofs,as_drawn_envelope,As-Drawn Envelope,Roofs,kWh,3715.37429812,378
-heating_demand,heating_demand.roofs,Roofs,basic_erv,+ Basic ERV,Roofs,kWh,3732.56999378,378
-heating_demand,heating_demand.roofs,Roofs,elec_heat_pumps,+ Elec. Heat Pumps,Roofs,kWh,3732.56999378,378
-heating_demand,heating_demand.roofs,Roofs,passive_house,Passive House,Roofs,kWh,3743.11448177,378
+heating_demand,heating_demand.roofs,Roofs,basic_erv,+ Basic ERV,Roofs,kWh,3732.59942364,378
+heating_demand,heating_demand.roofs,Roofs,elec_heat_pumps,+ Elec. Heat Pumps,Roofs,kWh,3732.59942364,378
+heating_demand,heating_demand.roofs,Roofs,passive_house,Passive House,Roofs,kWh,3743.43321426,378
 heating_demand,heating_demand.floor_slabs,Floor Slabs,code_minimum,Code Minimum,Floor Slabs,kWh,7805.64366595,379
 heating_demand,heating_demand.floor_slabs,Floor Slabs,improved_envelope,Improved Envelope,Floor Slabs,kWh,7666.40927124,379
 heating_demand,heating_demand.floor_slabs,Floor Slabs,as_drawn_envelope,As-Drawn Envelope,Floor Slabs,kWh,5147.4885889,379
 heating_demand,heating_demand.floor_slabs,Floor Slabs,basic_erv,+ Basic ERV,Floor Slabs,kWh,5147.4885889,379
 heating_demand,heating_demand.floor_slabs,Floor Slabs,elec_heat_pumps,+ Elec. Heat Pumps,Floor Slabs,kWh,5147.4885889,379
-heating_demand,heating_demand.floor_slabs,Floor Slabs,passive_house,Passive House,Floor Slabs,kWh,3059.08570562,379
+heating_demand,heating_demand.floor_slabs,Floor Slabs,passive_house,Passive House,Floor Slabs,kWh,3695.4522907,379
 heating_demand,heating_demand.windows,Windows,code_minimum,Code Minimum,Windows,kWh,13370.9774919,383
 heating_demand,heating_demand.windows,Windows,improved_envelope,Improved Envelope,Windows,kWh,10057.8408485,383
 heating_demand,heating_demand.windows,Windows,as_drawn_envelope,As-Drawn Envelope,Windows,kWh,6075.31486145,383
-heating_demand,heating_demand.windows,Windows,basic_erv,+ Basic ERV,Windows,kWh,6103.43296127,383
-heating_demand,heating_demand.windows,Windows,elec_heat_pumps,+ Elec. Heat Pumps,Windows,kWh,6103.43296127,383
-heating_demand,heating_demand.windows,Windows,passive_house,Passive House,Windows,kWh,5712.63011482,383
+heating_demand,heating_demand.windows,Windows,basic_erv,+ Basic ERV,Windows,kWh,6103.48108446,383
+heating_demand,heating_demand.windows,Windows,elec_heat_pumps,+ Elec. Heat Pumps,Windows,kWh,6103.48108446,383
+heating_demand,heating_demand.windows,Windows,passive_house,Passive House,Windows,kWh,5713.11655487,383
 heating_demand,heating_demand.exterior_door,Exterior door,code_minimum,Code Minimum,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,improved_envelope,Improved Envelope,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,as_drawn_envelope,As-Drawn Envelope,Exterior door,kWh,,384
@@ -266,9 +266,9 @@ heating_demand,heating_demand.exterior_door,Exterior door,passive_house,Passive 
 heating_demand,heating_demand.thermal_bridges,Thermal Bridges,code_minimum,Code Minimum,Thermal Bridges,kWh,8666.5218566,385
 heating_demand,heating_demand.thermal_bridges,Thermal Bridges,improved_envelope,Improved Envelope,Thermal Bridges,kWh,3678.16303714,385
 heating_demand,heating_demand.thermal_bridges,Thermal Bridges,as_drawn_envelope,As-Drawn Envelope,Thermal Bridges,kWh,2363.80474505,385
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,basic_erv,+ Basic ERV,Thermal Bridges,kWh,2374.74503363,385
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,elec_heat_pumps,+ Elec. Heat Pumps,Thermal Bridges,kWh,2374.74503363,385
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,passive_house,Passive House,Thermal Bridges,kWh,959.271284025,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,basic_erv,+ Basic ERV,Thermal Bridges,kWh,2374.76375757,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,elec_heat_pumps,+ Elec. Heat Pumps,Thermal Bridges,kWh,2374.76375757,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,passive_house,Passive House,Thermal Bridges,kWh,1009.63587502,385
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),code_minimum,Code Minimum,TB (Perimeter),kWh,,386
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),improved_envelope,Improved Envelope,TB (Perimeter),kWh,,386
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),as_drawn_envelope,As-Drawn Envelope,TB (Perimeter),kWh,,386
@@ -284,15 +284,15 @@ heating_demand,heating_demand.tb_bg,TB (BG),passive_house,Passive House,TB (BG),
 heating_demand,heating_demand.ventilation,Ventilation,code_minimum,Code Minimum,Ventilation,kWh,12610.7430064,388
 heating_demand,heating_demand.ventilation,Ventilation,improved_envelope,Improved Envelope,Ventilation,kWh,11405.3484148,388
 heating_demand,heating_demand.ventilation,Ventilation,as_drawn_envelope,As-Drawn Envelope,Ventilation,kWh,11022.816331,388
-heating_demand,heating_demand.ventilation,Ventilation,basic_erv,+ Basic ERV,Ventilation,kWh,7455.8668074,388
-heating_demand,heating_demand.ventilation,Ventilation,elec_heat_pumps,+ Elec. Heat Pumps,Ventilation,kWh,7455.8668074,388
-heating_demand,heating_demand.ventilation,Ventilation,passive_house,Passive House,Ventilation,kWh,4682.24328891,388
+heating_demand,heating_demand.ventilation,Ventilation,basic_erv,+ Basic ERV,Ventilation,kWh,7450.51311259,388
+heating_demand,heating_demand.ventilation,Ventilation,elec_heat_pumps,+ Elec. Heat Pumps,Ventilation,kWh,7450.51311259,388
+heating_demand,heating_demand.ventilation,Ventilation,passive_house,Passive House,Ventilation,kWh,4682.6419898,388
 heating_demand,heating_demand.heating_demand,Heating Demand,code_minimum,Code Minimum,Heating Demand,kWh,39085.7031747,389
 heating_demand,heating_demand.heating_demand,Heating Demand,improved_envelope,Improved Envelope,Heating Demand,kWh,27532.7448324,389
 heating_demand,heating_demand.heating_demand,Heating Demand,as_drawn_envelope,As-Drawn Envelope,Heating Demand,kWh,18949.7356295,389
-heating_demand,heating_demand.heating_demand,Heating Demand,basic_erv,+ Basic ERV,Heating Demand,kWh,15602.1660681,389
-heating_demand,heating_demand.heating_demand,Heating Demand,elec_heat_pumps,+ Elec. Heat Pumps,Heating Demand,kWh,15602.1660681,389
-heating_demand,heating_demand.heating_demand,Heating Demand,passive_house,Passive House,Heating Demand,kWh,9846.80123725,389
+heating_demand,heating_demand.heating_demand,Heating Demand,basic_erv,+ Basic ERV,Heating Demand,kWh,15597.2016676,389
+heating_demand,heating_demand.heating_demand,Heating Demand,elec_heat_pumps,+ Elec. Heat Pumps,Heating Demand,kWh,15597.2016676,389
+heating_demand,heating_demand.heating_demand,Heating Demand,passive_house,Passive House,Heating Demand,kWh,10365.772746,389
 heating_demand,heating_demand.north,North,code_minimum,Code Minimum,North,kWh,517.526733443,390
 heating_demand,heating_demand.north,North,improved_envelope,Improved Envelope,North,kWh,517.526733443,390
 heating_demand,heating_demand.north,North,as_drawn_envelope,As-Drawn Envelope,North,kWh,362.959417437,390
@@ -328,7 +328,7 @@ heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,improved_envelop
 heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,as_drawn_envelope,As-Drawn Envelope,Sum opaque areas,kWh,1211.34509874,395
 heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,basic_erv,+ Basic ERV,Sum opaque areas,kWh,1211.34509874,395
 heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,elec_heat_pumps,+ Elec. Heat Pumps,Sum opaque areas,kWh,1211.34509874,395
-heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,passive_house,Passive House,Sum opaque areas,kWh,1062.08517507,395
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,passive_house,Passive House,Sum opaque areas,kWh,1067.1939859,395
 heating_demand,heating_demand.internal_gains,Internal Gains,code_minimum,Code Minimum,Internal Gains,kWh,5723.9886993,396
 heating_demand,heating_demand.internal_gains,Internal Gains,improved_envelope,Improved Envelope,Internal Gains,kWh,5723.9886993,396
 heating_demand,heating_demand.internal_gains,Internal Gains,as_drawn_envelope,As-Drawn Envelope,Internal Gains,kWh,4590.52559053,396
@@ -338,39 +338,39 @@ heating_demand,heating_demand.internal_gains,Internal Gains,passive_house,Passiv
 cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,code_minimum,Code Minimum,Cooling Demand,kWh,6393.85860703,399
 cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,improved_envelope,Improved Envelope,Cooling Demand,kWh,5951.5232367,399
 cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,as_drawn_envelope,As-Drawn Envelope,Cooling Demand,kWh,6035.0962647,399
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,basic_erv,+ Basic ERV,Cooling Demand,kWh,6219.04266426,399
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,elec_heat_pumps,+ Elec. Heat Pumps,Cooling Demand,kWh,6219.04266426,399
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,passive_house,Passive House,Cooling Demand,kWh,5205.12315651,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,basic_erv,+ Basic ERV,Cooling Demand,kWh,6219.1789984,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,elec_heat_pumps,+ Elec. Heat Pumps,Cooling Demand,kWh,6219.1789984,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,passive_house,Passive House,Cooling Demand,kWh,5036.29378242,399
 cooling_demand,cooling_demand.walls_ag,Walls (AG),code_minimum,Code Minimum,Walls (AG),kWh,9753.09495771,400
 cooling_demand,cooling_demand.walls_ag,Walls (AG),improved_envelope,Improved Envelope,Walls (AG),kWh,5187.90809783,400
 cooling_demand,cooling_demand.walls_ag,Walls (AG),as_drawn_envelope,As-Drawn Envelope,Walls (AG),kWh,2983.38529764,400
 cooling_demand,cooling_demand.walls_ag,Walls (AG),basic_erv,+ Basic ERV,Walls (AG),kWh,2983.38529764,400
 cooling_demand,cooling_demand.walls_ag,Walls (AG),elec_heat_pumps,+ Elec. Heat Pumps,Walls (AG),kWh,2983.38529764,400
-cooling_demand,cooling_demand.walls_ag,Walls (AG),passive_house,Passive House,Walls (AG),kWh,1554.35456965,400
+cooling_demand,cooling_demand.walls_ag,Walls (AG),passive_house,Passive House,Walls (AG),kWh,2345.52685317,400
 cooling_demand,cooling_demand.walls_bg,Walls (BG),code_minimum,Code Minimum,Walls (BG),kWh,787.738822943,401
 cooling_demand,cooling_demand.walls_bg,Walls (BG),improved_envelope,Improved Envelope,Walls (BG),kWh,490.689264678,401
 cooling_demand,cooling_demand.walls_bg,Walls (BG),as_drawn_envelope,As-Drawn Envelope,Walls (BG),kWh,589.066001556,401
 cooling_demand,cooling_demand.walls_bg,Walls (BG),basic_erv,+ Basic ERV,Walls (BG),kWh,589.066001556,401
 cooling_demand,cooling_demand.walls_bg,Walls (BG),elec_heat_pumps,+ Elec. Heat Pumps,Walls (BG),kWh,589.066001556,401
-cooling_demand,cooling_demand.walls_bg,Walls (BG),passive_house,Passive House,Walls (BG),kWh,612.83745165,401
+cooling_demand,cooling_demand.walls_bg,Walls (BG),passive_house,Passive House,Walls (BG),kWh,690.488802267,401
 cooling_demand,cooling_demand.roofs,Roofs,code_minimum,Code Minimum,Roofs,kWh,6225.85549943,402
 cooling_demand,cooling_demand.roofs,Roofs,improved_envelope,Improved Envelope,Roofs,kWh,3566.42866244,402
 cooling_demand,cooling_demand.roofs,Roofs,as_drawn_envelope,As-Drawn Envelope,Roofs,kWh,2193.98094094,402
 cooling_demand,cooling_demand.roofs,Roofs,basic_erv,+ Basic ERV,Roofs,kWh,2193.98094094,402
 cooling_demand,cooling_demand.roofs,Roofs,elec_heat_pumps,+ Elec. Heat Pumps,Roofs,kWh,2193.98094094,402
-cooling_demand,cooling_demand.roofs,Roofs,passive_house,Passive House,Roofs,kWh,1143.07203429,402
+cooling_demand,cooling_demand.roofs,Roofs,passive_house,Passive House,Roofs,kWh,1724.89997064,402
 cooling_demand,cooling_demand.floor_slabs,Floor Slabs,code_minimum,Code Minimum,Floor Slabs,kWh,8750.95661059,403
 cooling_demand,cooling_demand.floor_slabs,Floor Slabs,improved_envelope,Improved Envelope,Floor Slabs,kWh,6868.31780746,403
 cooling_demand,cooling_demand.floor_slabs,Floor Slabs,as_drawn_envelope,As-Drawn Envelope,Floor Slabs,kWh,4759.55227702,403
 cooling_demand,cooling_demand.floor_slabs,Floor Slabs,basic_erv,+ Basic ERV,Floor Slabs,kWh,4759.55227702,403
 cooling_demand,cooling_demand.floor_slabs,Floor Slabs,elec_heat_pumps,+ Elec. Heat Pumps,Floor Slabs,kWh,4759.55227702,403
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,passive_house,Passive House,Floor Slabs,kWh,2129.19725246,403
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,passive_house,Passive House,Floor Slabs,kWh,3156.55707786,403
 cooling_demand,cooling_demand.windows,Windows,code_minimum,Code Minimum,Windows,kWh,14562.2810898,407
 cooling_demand,cooling_demand.windows,Windows,improved_envelope,Improved Envelope,Windows,kWh,7366.43566915,407
 cooling_demand,cooling_demand.windows,Windows,as_drawn_envelope,As-Drawn Envelope,Windows,kWh,3587.55913851,407
 cooling_demand,cooling_demand.windows,Windows,basic_erv,+ Basic ERV,Windows,kWh,3587.55913851,407
 cooling_demand,cooling_demand.windows,Windows,elec_heat_pumps,+ Elec. Heat Pumps,Windows,kWh,3587.55913851,407
-cooling_demand,cooling_demand.windows,Windows,passive_house,Passive House,Windows,kWh,1744.52257827,407
+cooling_demand,cooling_demand.windows,Windows,passive_house,Passive House,Windows,kWh,2632.49108871,407
 cooling_demand,cooling_demand.exterior_door,Exterior door,code_minimum,Code Minimum,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,improved_envelope,Improved Envelope,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,as_drawn_envelope,As-Drawn Envelope,Exterior door,kWh,,408
@@ -382,7 +382,7 @@ cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,improved_envelope,
 cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,as_drawn_envelope,As-Drawn Envelope,Thermal Bridges,kWh,1395.8600514,409
 cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,basic_erv,+ Basic ERV,Thermal Bridges,kWh,1395.8600514,409
 cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,elec_heat_pumps,+ Elec. Heat Pumps,Thermal Bridges,kWh,1395.8600514,409
-cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,passive_house,Passive House,Thermal Bridges,kWh,292.942196508,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,passive_house,Passive House,Thermal Bridges,kWh,465.220238078,409
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),code_minimum,Code Minimum,TB (Perimeter),kWh,,410
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),improved_envelope,Improved Envelope,TB (Perimeter),kWh,,410
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),as_drawn_envelope,As-Drawn Envelope,TB (Perimeter),kWh,,410
@@ -398,39 +398,39 @@ cooling_demand,cooling_demand.tb_bg,TB (BG),passive_house,Passive House,TB (BG),
 cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),code_minimum,Code Minimum,Ventilation (Basic),kWh,5234.20346604,412
 cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),improved_envelope,Improved Envelope,Ventilation (Basic),kWh,4421.01252333,412
 cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),as_drawn_envelope,As-Drawn Envelope,Ventilation (Basic),kWh,4327.73071564,412
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),basic_erv,+ Basic ERV,Ventilation (Basic),kWh,3983.68674528,412
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),elec_heat_pumps,+ Elec. Heat Pumps,Ventilation (Basic),kWh,3983.68674528,412
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),passive_house,Passive House,Ventilation (Basic),kWh,2068.86810708,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),basic_erv,+ Basic ERV,Ventilation (Basic),kWh,3982.57221654,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),elec_heat_pumps,+ Elec. Heat Pumps,Ventilation (Basic),kWh,3982.57221654,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),passive_house,Passive House,Ventilation (Basic),kWh,2666.58240802,412
 cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),code_minimum,Code Minimum,Ventilation (Addn'l),kWh,2147.67135732,413
 cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),improved_envelope,Improved Envelope,Ventilation (Addn'l),kWh,1907.69675583,413
 cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),as_drawn_envelope,As-Drawn Envelope,Ventilation (Addn'l),kWh,1837.11560644,413
-cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),basic_erv,+ Basic ERV,Ventilation (Addn'l),kWh,1912.87590131,413
-cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),elec_heat_pumps,+ Elec. Heat Pumps,Ventilation (Addn'l),kWh,1912.87590131,413
-cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),passive_house,Passive House,Ventilation (Addn'l),kWh,1237.66706647,413
+cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),basic_erv,+ Basic ERV,Ventilation (Addn'l),kWh,1913.06178162,413
+cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),elec_heat_pumps,+ Elec. Heat Pumps,Ventilation (Addn'l),kWh,1913.06178162,413
+cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),passive_house,Passive House,Ventilation (Addn'l),kWh,1602.88788162,413
 cooling_demand,cooling_demand.north,North,code_minimum,Code Minimum,North,kWh,534.50107835,414
 cooling_demand,cooling_demand.north,North,improved_envelope,Improved Envelope,North,kWh,494.445208679,414
 cooling_demand,cooling_demand.north,North,as_drawn_envelope,As-Drawn Envelope,North,kWh,469.832752596,414
 cooling_demand,cooling_demand.north,North,basic_erv,+ Basic ERV,North,kWh,469.832752596,414
 cooling_demand,cooling_demand.north,North,elec_heat_pumps,+ Elec. Heat Pumps,North,kWh,469.832752596,414
-cooling_demand,cooling_demand.north,North,passive_house,Passive House,North,kWh,408.325623073,414
+cooling_demand,cooling_demand.north,North,passive_house,Passive House,North,kWh,446.916225724,414
 cooling_demand,cooling_demand.east,East,code_minimum,Code Minimum,East,kWh,1576.01063658,415
 cooling_demand,cooling_demand.east,East,improved_envelope,Improved Envelope,East,kWh,1450.55537954,415
 cooling_demand,cooling_demand.east,East,as_drawn_envelope,As-Drawn Envelope,East,kWh,1359.64041994,415
 cooling_demand,cooling_demand.east,East,basic_erv,+ Basic ERV,East,kWh,1359.64041994,415
 cooling_demand,cooling_demand.east,East,elec_heat_pumps,+ Elec. Heat Pumps,East,kWh,1359.64041994,415
-cooling_demand,cooling_demand.east,East,passive_house,Passive House,East,kWh,1154.86241758,415
+cooling_demand,cooling_demand.east,East,passive_house,Passive House,East,kWh,1290.92749623,415
 cooling_demand,cooling_demand.south,South,code_minimum,Code Minimum,South,kWh,8050.31791877,416
 cooling_demand,cooling_demand.south,South,improved_envelope,Improved Envelope,South,kWh,6700.05468073,416
 cooling_demand,cooling_demand.south,South,as_drawn_envelope,As-Drawn Envelope,South,kWh,5982.77567168,416
 cooling_demand,cooling_demand.south,South,basic_erv,+ Basic ERV,South,kWh,5982.77567168,416
 cooling_demand,cooling_demand.south,South,elec_heat_pumps,+ Elec. Heat Pumps,South,kWh,5982.77567168,416
-cooling_demand,cooling_demand.south,South,passive_house,Passive House,South,kWh,4601.87346276,416
+cooling_demand,cooling_demand.south,South,passive_house,Passive House,South,kWh,5381.54020407,416
 cooling_demand,cooling_demand.west,West,code_minimum,Code Minimum,West,kWh,2358.28805672,417
 cooling_demand,cooling_demand.west,West,improved_envelope,Improved Envelope,West,kWh,2145.35831452,417
 cooling_demand,cooling_demand.west,West,as_drawn_envelope,As-Drawn Envelope,West,kWh,2005.88166046,417
 cooling_demand,cooling_demand.west,West,basic_erv,+ Basic ERV,West,kWh,2005.88166046,417
 cooling_demand,cooling_demand.west,West,elec_heat_pumps,+ Elec. Heat Pumps,West,kWh,2005.88166046,417
-cooling_demand,cooling_demand.west,West,passive_house,Passive House,West,kWh,1702.76565308,417
+cooling_demand,cooling_demand.west,West,passive_house,Passive House,West,kWh,1902.36676115,417
 cooling_demand,cooling_demand.horizontal,Horizontal,code_minimum,Code Minimum,Horizontal,kWh,0,418
 cooling_demand,cooling_demand.horizontal,Horizontal,improved_envelope,Improved Envelope,Horizontal,kWh,0,418
 cooling_demand,cooling_demand.horizontal,Horizontal,as_drawn_envelope,As-Drawn Envelope,Horizontal,kWh,0,418
@@ -442,31 +442,31 @@ cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,improved_envelop
 cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,as_drawn_envelope,As-Drawn Envelope,Sum opaque areas,kWh,1759.57861702,419
 cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,basic_erv,+ Basic ERV,Sum opaque areas,kWh,1759.57861702,419
 cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,elec_heat_pumps,+ Elec. Heat Pumps,Sum opaque areas,kWh,1759.57861702,419
-cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,passive_house,Passive House,Sum opaque areas,kWh,1299.43235966,419
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,passive_house,Passive House,Sum opaque areas,kWh,1461.41396444,419
 cooling_demand,cooling_demand.internal_gains,Internal Gains,code_minimum,Code Minimum,Internal Gains,kWh,11541.0959379,420
 cooling_demand,cooling_demand.internal_gains,Internal Gains,improved_envelope,Improved Envelope,Internal Gains,kWh,9275.39834721,420
 cooling_demand,cooling_demand.internal_gains,Internal Gains,as_drawn_envelope,As-Drawn Envelope,Internal Gains,kWh,8418.26582667,420
 cooling_demand,cooling_demand.internal_gains,Internal Gains,basic_erv,+ Basic ERV,Internal Gains,kWh,8691.52412885,420
 cooling_demand,cooling_demand.internal_gains,Internal Gains,elec_heat_pumps,+ Elec. Heat Pumps,Internal Gains,kWh,8691.52412885,420
-cooling_demand,cooling_demand.internal_gains,Internal Gains,passive_house,Passive House,Internal Gains,kWh,4363.06327979,420
+cooling_demand,cooling_demand.internal_gains,Internal Gains,passive_house,Passive House,Internal Gains,kWh,4995.09581098,420
 site_energy,site_energy.heating,Heating,code_minimum,Code Minimum,Heating,kWh,41053.2076355,423
 site_energy,site_energy.heating,Heating,improved_envelope,Improved Envelope,Heating,kWh,29236.2488818,423
 site_energy,site_energy.heating,Heating,as_drawn_envelope,As-Drawn Envelope,Heating,kWh,20452.5133237,423
-site_energy,site_energy.heating,Heating,basic_erv,+ Basic ERV,Heating,kWh,17478.651971,423
-site_energy,site_energy.heating,Heating,elec_heat_pumps,+ Elec. Heat Pumps,Heating,kWh,10284.2530433,423
-site_energy,site_energy.heating,Heating,passive_house,Passive House,Heating,kWh,6645.25971121,423
+site_energy,site_energy.heating,Heating,basic_erv,+ Basic ERV,Heating,kWh,17473.5635328,423
+site_energy,site_energy.heating,Heating,elec_heat_pumps,+ Elec. Heat Pumps,Heating,kWh,10281.9838324,423
+site_energy,site_energy.heating,Heating,passive_house,Passive House,Heating,kWh,6895.7550419,423
 site_energy,site_energy.cooling,Cooling,code_minimum,Code Minimum,Cooling,kWh,3184.31280676,424
 site_energy,site_energy.cooling,Cooling,improved_envelope,Improved Envelope,Cooling,kWh,2890.16328331,424
 site_energy,site_energy.cooling,Cooling,as_drawn_envelope,As-Drawn Envelope,Cooling,kWh,2782.07953791,424
-site_energy,site_energy.cooling,Cooling,basic_erv,+ Basic ERV,Cooling,kWh,3105.76273654,424
-site_energy,site_energy.cooling,Cooling,elec_heat_pumps,+ Elec. Heat Pumps,Cooling,kWh,3105.76273654,424
-site_energy,site_energy.cooling,Cooling,passive_house,Passive House,Cooling,kWh,2437.85471745,424
+site_energy,site_energy.cooling,Cooling,basic_erv,+ Basic ERV,Cooling,kWh,3105.70636288,424
+site_energy,site_energy.cooling,Cooling,elec_heat_pumps,+ Elec. Heat Pumps,Cooling,kWh,3105.70636288,424
+site_energy,site_energy.cooling,Cooling,passive_house,Passive House,Cooling,kWh,2402.79208389,424
 site_energy,site_energy.dhw,DHW,code_minimum,Code Minimum,DHW,kWh,7721.04606525,425
 site_energy,site_energy.dhw,DHW,improved_envelope,Improved Envelope,DHW,kWh,7724.30270089,425
 site_energy,site_energy.dhw,DHW,as_drawn_envelope,As-Drawn Envelope,DHW,kWh,7741.59080316,425
-site_energy,site_energy.dhw,DHW,basic_erv,+ Basic ERV,DHW,kWh,7752.13407582,425
-site_energy,site_energy.dhw,DHW,elec_heat_pumps,+ Elec. Heat Pumps,DHW,kWh,3120.4939235,425
-site_energy,site_energy.dhw,DHW,passive_house,Passive House,DHW,kWh,3088.21784579,425
+site_energy,site_energy.dhw,DHW,basic_erv,+ Basic ERV,DHW,kWh,7752.15242066,425
+site_energy,site_energy.dhw,DHW,elec_heat_pumps,+ Elec. Heat Pumps,DHW,kWh,3120.44178625,425
+site_energy,site_energy.dhw,DHW,passive_house,Passive House,DHW,kWh,3099.88267859,425
 site_energy,site_energy.dishwashing,Dishwashing,code_minimum,Code Minimum,Dishwashing,kWh,395.6925,426
 site_energy,site_energy.dishwashing,Dishwashing,improved_envelope,Improved Envelope,Dishwashing,kWh,395.6925,426
 site_energy,site_energy.dishwashing,Dishwashing,as_drawn_envelope,As-Drawn Envelope,Dishwashing,kWh,395.6925,426
@@ -548,21 +548,21 @@ site_energy,site_energy.solar_pv,Solar PV,passive_house,Passive House,Solar PV,k
 primary_energy,primary_energy.heating,Heating,code_minimum,Code Minimum,Heating,kWh,46942.7367618,441
 primary_energy,primary_energy.heating,Heating,improved_envelope,Improved Envelope,Heating,kWh,33777.3336316,441
 primary_energy,primary_energy.heating,Heating,as_drawn_envelope,As-Drawn Envelope,Heating,kWh,23957.7778814,441
-primary_energy,primary_energy.heating,Heating,basic_erv,+ Basic ERV,Heating,kWh,21308.5390927,441
-primary_energy,primary_energy.heating,Heating,elec_heat_pumps,+ Elec. Heat Pumps,Heating,kWh,26739.0579126,441
-primary_energy,primary_energy.heating,Heating,passive_house,Passive House,Heating,kWh,17277.6752492,441
+primary_energy,primary_energy.heating,Heating,basic_erv,+ Basic ERV,Heating,kWh,21302.8507438,441
+primary_energy,primary_energy.heating,Heating,elec_heat_pumps,+ Elec. Heat Pumps,Heating,kWh,26733.1579643,441
+primary_energy,primary_energy.heating,Heating,passive_house,Passive House,Heating,kWh,17928.9631089,441
 primary_energy,primary_energy.cooling,Cooling,code_minimum,Code Minimum,Cooling,kWh,8279.21329756,442
 primary_energy,primary_energy.cooling,Cooling,improved_envelope,Improved Envelope,Cooling,kWh,7514.42453661,442
 primary_energy,primary_energy.cooling,Cooling,as_drawn_envelope,As-Drawn Envelope,Cooling,kWh,7233.40679856,442
-primary_energy,primary_energy.cooling,Cooling,basic_erv,+ Basic ERV,Cooling,kWh,8074.983115,442
-primary_energy,primary_energy.cooling,Cooling,elec_heat_pumps,+ Elec. Heat Pumps,Cooling,kWh,8074.983115,442
-primary_energy,primary_energy.cooling,Cooling,passive_house,Passive House,Cooling,kWh,6338.42226537,442
+primary_energy,primary_energy.cooling,Cooling,basic_erv,+ Basic ERV,Cooling,kWh,8074.8365435,442
+primary_energy,primary_energy.cooling,Cooling,elec_heat_pumps,+ Elec. Heat Pumps,Cooling,kWh,8074.8365435,442
+primary_energy,primary_energy.cooling,Cooling,passive_house,Passive House,Cooling,kWh,6247.25941812,442
 primary_energy,primary_energy.dhw,DHW,code_minimum,Code Minimum,DHW,kWh,8866.25851376,443
 primary_energy,primary_energy.dhw,DHW,improved_envelope,Improved Envelope,DHW,kWh,8876.87573291,443
 primary_energy,primary_energy.dhw,DHW,as_drawn_envelope,As-Drawn Envelope,DHW,kWh,8895.89264542,443
-primary_energy,primary_energy.dhw,DHW,basic_erv,+ Basic ERV,DHW,kWh,8907.49024534,443
-primary_energy,primary_energy.dhw,DHW,elec_heat_pumps,+ Elec. Heat Pumps,DHW,kWh,8113.2842011,443
-primary_energy,primary_energy.dhw,DHW,passive_house,Passive House,DHW,kWh,8029.36639906,443
+primary_energy,primary_energy.dhw,DHW,basic_erv,+ Basic ERV,DHW,kWh,8907.51042467,443
+primary_energy,primary_energy.dhw,DHW,elec_heat_pumps,+ Elec. Heat Pumps,DHW,kWh,8113.14864424,443
+primary_energy,primary_energy.dhw,DHW,passive_house,Passive House,DHW,kWh,8059.69496434,443
 primary_energy,primary_energy.dishwashing,Dishwashing,code_minimum,Code Minimum,Dishwashing,kWh,1028.8005,444
 primary_energy,primary_energy.dishwashing,Dishwashing,improved_envelope,Improved Envelope,Dishwashing,kWh,1028.8005,444
 primary_energy,primary_energy.dishwashing,Dishwashing,as_drawn_envelope,As-Drawn Envelope,Dishwashing,kWh,1028.8005,444
@@ -644,15 +644,15 @@ primary_energy,primary_energy.solar_pv,Solar PV,passive_house,Passive House,Sola
 certification_results,certification_results.heat_demand,Heat Demand,code_minimum,Code Minimum,Heat Demand,kWh/m2,111.351176902,459
 certification_results,certification_results.heat_demand,Heat Demand,improved_envelope,Improved Envelope,Heat Demand,kWh/m2,78.4379783762,459
 certification_results,certification_results.heat_demand,Heat Demand,as_drawn_envelope,As-Drawn Envelope,Heat Demand,kWh/m2,53.9858616564,459
-certification_results,certification_results.heat_demand,Heat Demand,basic_erv,+ Basic ERV,Heat Demand,kWh/m2,44.4489778306,459
-certification_results,certification_results.heat_demand,Heat Demand,elec_heat_pumps,+ Elec. Heat Pumps,Heat Demand,kWh/m2,44.4489778306,459
-certification_results,certification_results.heat_demand,Heat Demand,passive_house,Passive House,Heat Demand,kWh/m2,28.052531167,459
+certification_results,certification_results.heat_demand,Heat Demand,basic_erv,+ Basic ERV,Heat Demand,kWh/m2,44.4348347608,459
+certification_results,certification_results.heat_demand,Heat Demand,elec_heat_pumps,+ Elec. Heat Pumps,Heat Demand,kWh/m2,44.4348347608,459
+certification_results,certification_results.heat_demand,Heat Demand,passive_house,Passive House,Heat Demand,kWh/m2,29.531027998,459
 certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,code_minimum,Code Minimum,Sensible Cooling Demand,kWh/m2,18.2154502289,460
 certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,improved_envelope,Improved Envelope,Sensible Cooling Demand,kWh/m2,16.9552819302,460
 certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,as_drawn_envelope,As-Drawn Envelope,Sensible Cooling Demand,kWh/m2,17.1933729525,460
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,basic_erv,+ Basic ERV,Sensible Cooling Demand,kWh/m2,17.7174174602,460
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,elec_heat_pumps,+ Elec. Heat Pumps,Sensible Cooling Demand,kWh/m2,17.7174174602,460
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,passive_house,Passive House,Sensible Cooling Demand,kWh/m2,14.8288643243,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,basic_erv,+ Basic ERV,Sensible Cooling Demand,kWh/m2,17.7178058622,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,elec_heat_pumps,+ Elec. Heat Pumps,Sensible Cooling Demand,kWh/m2,17.7178058622,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,passive_house,Passive House,Sensible Cooling Demand,kWh/m2,14.3478866785,460
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,code_minimum,Code Minimum,Latent Cooling Demand,kWh/m2,0.868374855952,461
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,improved_envelope,Improved Envelope,Latent Cooling Demand,kWh/m2,0.921473443589,461
 certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,as_drawn_envelope,As-Drawn Envelope,Latent Cooling Demand,kWh/m2,0.921473443589,461
@@ -662,33 +662,33 @@ certification_results,certification_results.latent_cooling_demand,Latent Cooling
 certification_results,certification_results.total_cooling_demand,Total Cooling Demand,code_minimum,Code Minimum,Total Cooling Demand,kWh/m2,19.0838250849,462
 certification_results,certification_results.total_cooling_demand,Total Cooling Demand,improved_envelope,Improved Envelope,Total Cooling Demand,kWh/m2,17.8767553738,462
 certification_results,certification_results.total_cooling_demand,Total Cooling Demand,as_drawn_envelope,As-Drawn Envelope,Total Cooling Demand,kWh/m2,18.1148463961,462
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,basic_erv,+ Basic ERV,Total Cooling Demand,kWh/m2,18.4513886301,462
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,elec_heat_pumps,+ Elec. Heat Pumps,Total Cooling Demand,kWh/m2,18.4513886301,462
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,passive_house,Passive House,Total Cooling Demand,kWh/m2,15.9826229272,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,basic_erv,+ Basic ERV,Total Cooling Demand,kWh/m2,18.4517770321,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,elec_heat_pumps,+ Elec. Heat Pumps,Total Cooling Demand,kWh/m2,18.4517770321,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,passive_house,Passive House,Total Cooling Demand,kWh/m2,15.5016452813,462
 certification_results,certification_results.peak_heat_load,Peak Heat Load,code_minimum,Code Minimum,Peak Heat Load,W/m2,48.0097976967,463
 certification_results,certification_results.peak_heat_load,Peak Heat Load,improved_envelope,Improved Envelope,Peak Heat Load,W/m2,33.898862024,463
 certification_results,certification_results.peak_heat_load,Peak Heat Load,as_drawn_envelope,As-Drawn Envelope,Peak Heat Load,W/m2,26.1133598143,463
-certification_results,certification_results.peak_heat_load,Peak Heat Load,basic_erv,+ Basic ERV,Peak Heat Load,W/m2,26.8943250927,463
-certification_results,certification_results.peak_heat_load,Peak Heat Load,elec_heat_pumps,+ Elec. Heat Pumps,Peak Heat Load,W/m2,26.8943250927,463
-certification_results,certification_results.peak_heat_load,Peak Heat Load,passive_house,Passive House,Peak Heat Load,W/m2,18.5375843917,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,basic_erv,+ Basic ERV,Peak Heat Load,W/m2,26.8894325712,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,elec_heat_pumps,+ Elec. Heat Pumps,Peak Heat Load,W/m2,26.8894325712,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,passive_house,Passive House,Peak Heat Load,W/m2,18.8856387003,463
 certification_results,certification_results.peak_cooling_load,Peak Cooling Load,code_minimum,Code Minimum,Peak Cooling Load,W/m2,19.53968315,464
 certification_results,certification_results.peak_cooling_load,Peak Cooling Load,improved_envelope,Improved Envelope,Peak Cooling Load,W/m2,16.634364212,464
 certification_results,certification_results.peak_cooling_load,Peak Cooling Load,as_drawn_envelope,As-Drawn Envelope,Peak Cooling Load,W/m2,15.0745120152,464
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,basic_erv,+ Basic ERV,Peak Cooling Load,W/m2,14.8242425266,464
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,elec_heat_pumps,+ Elec. Heat Pumps,Peak Cooling Load,W/m2,14.8242425266,464
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,passive_house,Passive House,Peak Cooling Load,W/m2,13.0367811383,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,basic_erv,+ Basic ERV,Peak Cooling Load,W/m2,14.8232234885,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,elec_heat_pumps,+ Elec. Heat Pumps,Peak Cooling Load,W/m2,14.8232234885,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,passive_house,Passive House,Peak Cooling Load,W/m2,12.8648439558,464
 certification_results,certification_results.pe_demand,PE Demand,code_minimum,Code Minimum,PE Demand,kWh/m2,237.920390039,465
 certification_results,certification_results.pe_demand,PE Demand,improved_envelope,Improved Envelope,PE Demand,kWh/m2,195.540885896,465
 certification_results,certification_results.pe_demand,PE Demand,as_drawn_envelope,As-Drawn Envelope,PE Demand,kWh/m2,166.819560743,465
-certification_results,certification_results.pe_demand,PE Demand,basic_erv,+ Basic ERV,PE Demand,kWh/m2,164.389236292,465
-certification_results,certification_results.pe_demand,PE Demand,elec_heat_pumps,+ Elec. Heat Pumps,PE Demand,kWh/m2,177.597617928,465
-certification_results,certification_results.pe_demand,PE Demand,passive_house,Passive House,PE Demand,kWh/m2,115.129349144,465
+certification_results,certification_results.pe_demand,PE Demand,basic_erv,+ Basic ERV,PE Demand,kWh/m2,164.372670689,465
+certification_results,certification_results.pe_demand,PE Demand,elec_heat_pumps,+ Elec. Heat Pumps,PE Demand,kWh/m2,177.580005823,465
+certification_results,certification_results.pe_demand,PE Demand,passive_house,Passive House,PE Demand,kWh/m2,116.81149109,465
 certification_results,certification_results.per_demand,PER Demand,code_minimum,Code Minimum,PER Demand,kWh/m2,276.272208355,466
 certification_results,certification_results.per_demand,PER Demand,improved_envelope,Improved Envelope,PER Demand,kWh/m2,214.969861392,466
 certification_results,certification_results.per_demand,PER Demand,as_drawn_envelope,As-Drawn Envelope,PER Demand,kWh/m2,170.874183622,466
-certification_results,certification_results.per_demand,PER Demand,basic_erv,+ Basic ERV,PER Demand,kWh/m2,158.381909821,466
-certification_results,certification_results.per_demand,PER Demand,elec_heat_pumps,+ Elec. Heat Pumps,PER Demand,kWh/m2,88.1854442673,466
-certification_results,certification_results.per_demand,PER Demand,passive_house,Passive House,PER Demand,kWh/m2,58.2802847205,466
+certification_results,certification_results.per_demand,PER Demand,basic_erv,+ Basic ERV,PER Demand,kWh/m2,158.356442876,466
+certification_results,certification_results.per_demand,PER Demand,elec_heat_pumps,+ Elec. Heat Pumps,PER Demand,kWh/m2,88.1753434544,466
+certification_results,certification_results.per_demand,PER Demand,passive_house,Passive House,PER Demand,kWh/m2,59.1173473539,466
 airtightness,airtightness.nv_system,"nV,system",code_minimum,Code Minimum,nV system,%,0.358886851349,470
 airtightness,airtightness.nv_system,"nV,system",improved_envelope,Improved Envelope,nV system,%,0.358886851349,470
 airtightness,airtightness.nv_system,"nV,system",as_drawn_envelope,As-Drawn Envelope,nV system,%,0.358886851349,470
@@ -698,8 +698,8 @@ airtightness,airtightness.nv_system,"nV,system",passive_house,Passive House,nV s
 airtightness,airtightness.hhr,hHR,code_minimum,Code Minimum,hHR,%,0,471
 airtightness,airtightness.hhr,hHR,improved_envelope,Improved Envelope,hHR,%,0,471
 airtightness,airtightness.hhr,hHR,as_drawn_envelope,As-Drawn Envelope,hHR,%,0,471
-airtightness,airtightness.hhr,hHR,basic_erv,+ Basic ERV,hHR,%,0.7321240348,471
-airtightness,airtightness.hhr,hHR,elec_heat_pumps,+ Elec. Heat Pumps,hHR,%,0.7321240348,471
+airtightness,airtightness.hhr,hHR,basic_erv,+ Basic ERV,hHR,%,0.732642696309,471
+airtightness,airtightness.hhr,hHR,elec_heat_pumps,+ Elec. Heat Pumps,hHR,%,0.732642696309,471
 airtightness,airtightness.hhr,hHR,passive_house,Passive House,hHR,%,0.775876676196,471
 airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",code_minimum,Code Minimum,Wind protection coefficient  e,,0.07,472
 airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",improved_envelope,Improved Envelope,Wind protection coefficient  e,,0.07,472
@@ -728,9 +728,9 @@ airtightness,airtightness.vv,VV,passive_house,Passive House,VV,m3,877.532331988,
 airtightness,airtightness.gt,Gt,code_minimum,Code Minimum,Gt,kFh/a,104.247297679,476
 airtightness,airtightness.gt,Gt,improved_envelope,Improved Envelope,Gt,kFh/a,103.89598942,476
 airtightness,airtightness.gt,Gt,as_drawn_envelope,As-Drawn Envelope,Gt,kFh/a,100.411348015,476
-airtightness,airtightness.gt,Gt,basic_erv,+ Basic ERV,Gt,kFh/a,100.87607723,476
-airtightness,airtightness.gt,Gt,elec_heat_pumps,+ Elec. Heat Pumps,Gt,kFh/a,100.87607723,476
-airtightness,airtightness.gt,Gt,passive_house,Passive House,Gt,kFh/a,101.161051547,476
+airtightness,airtightness.gt,Gt,basic_erv,+ Basic ERV,Gt,kFh/a,100.876872598,476
+airtightness,airtightness.gt,Gt,elec_heat_pumps,+ Elec. Heat Pumps,Gt,kFh/a,100.876872598,476
+airtightness,airtightness.gt,Gt,passive_house,Passive House,Gt,kFh/a,101.16966558,476
 r_values,r_values.assembly_01,01ud-FC-1,code_minimum,Code Minimum,01ud-FC-1,m2,#DIV/0!,480
 r_values,r_values.assembly_01,01ud-FC-1,improved_envelope,Improved Envelope,01ud-FC-1,m2,#DIV/0!,480
 r_values,r_values.assembly_01,01ud-FC-1,as_drawn_envelope,As-Drawn Envelope,01ud-FC-1,m2,#DIV/0!,480
@@ -776,15 +776,15 @@ r_values,r_values.assembly_10,10ud-EW-2,passive_house,Passive House,10ud-EW-2,m2
 r_values,r_values.gt_a,Gt-A,code_minimum,Code Minimum,Gt-A,kFh/y,104.247297679,490
 r_values,r_values.gt_a,Gt-A,improved_envelope,Improved Envelope,Gt-A,kFh/y,103.89598942,490
 r_values,r_values.gt_a,Gt-A,as_drawn_envelope,As-Drawn Envelope,Gt-A,kFh/y,100.411348015,490
-r_values,r_values.gt_a,Gt-A,basic_erv,+ Basic ERV,Gt-A,kFh/y,100.87607723,490
-r_values,r_values.gt_a,Gt-A,elec_heat_pumps,+ Elec. Heat Pumps,Gt-A,kFh/y,100.87607723,490
-r_values,r_values.gt_a,Gt-A,passive_house,Passive House,Gt-A,kFh/y,101.161051547,490
+r_values,r_values.gt_a,Gt-A,basic_erv,+ Basic ERV,Gt-A,kFh/y,100.876872598,490
+r_values,r_values.gt_a,Gt-A,elec_heat_pumps,+ Elec. Heat Pumps,Gt-A,kFh/y,100.876872598,490
+r_values,r_values.gt_a,Gt-A,passive_house,Passive House,Gt-A,kFh/y,101.16966558,490
 r_values,r_values.gt_b,Gt-B,code_minimum,Code Minimum,Gt-B,kFh/y,30.9967614805,491
 r_values,r_values.gt_b,Gt-B,improved_envelope,Improved Envelope,Gt-B,kFh/y,30.4438518798,491
 r_values,r_values.gt_b,Gt-B,as_drawn_envelope,As-Drawn Envelope,Gt-B,kFh/y,35.1585891553,491
 r_values,r_values.gt_b,Gt-B,basic_erv,+ Basic ERV,Gt-B,kFh/y,35.1585891553,491
 r_values,r_values.gt_b,Gt-B,elec_heat_pumps,+ Elec. Heat Pumps,Gt-B,kFh/y,35.1585891553,491
-r_values,r_values.gt_b,Gt-B,passive_house,Passive House,Gt-B,kFh/y,48.5913803005,491
+r_values,r_values.gt_b,Gt-B,passive_house,Passive House,Gt-B,kFh/y,44.6117010568,491
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,code_minimum,Code Minimum,Certification Compliant?,,,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,improved_envelope,Improved Envelope,Certification Compliant?,,,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,as_drawn_envelope,As-Drawn Envelope,Certification Compliant?,,,493
@@ -794,15 +794,15 @@ certification_compliant,certification_compliant.certification_compliant_2,Certif
 peak_loads,peak_loads.peak_heat_load,Peak Heat Load,code_minimum,Code Minimum,Peak Heat Load,Btuh,57501.6213455,497
 peak_loads,peak_loads.peak_heat_load,Peak Heat Load,improved_envelope,Improved Envelope,Peak Heat Load,Btuh,40600.8694405,497
 peak_loads,peak_loads.peak_heat_load,Peak Heat Load,as_drawn_envelope,As-Drawn Envelope,Peak Heat Load,Btuh,31276.1269603,497
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,basic_erv,+ Basic ERV,Peak Heat Load,Btuh,32211.493737,497
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,elec_heat_pumps,+ Elec. Heat Pumps,Peak Heat Load,Btuh,32211.493737,497
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,passive_house,Passive House,Peak Heat Load,Btuh,22202.5755052,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,basic_erv,+ Basic ERV,Peak Heat Load,Btuh,32205.6339348,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,elec_heat_pumps,+ Elec. Heat Pumps,Peak Heat Load,Btuh,32205.6339348,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,passive_house,Passive House,Peak Heat Load,Btuh,22619.4422287,497
 peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,code_minimum,Code Minimum,Peak Sensible Cooling Load,Btuh,23402.7951711,498
 peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,improved_envelope,Improved Envelope,Peak Sensible Cooling Load,Btuh,19923.0773327,498
 peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,as_drawn_envelope,As-Drawn Envelope,Peak Sensible Cooling Load,Btuh,18054.8330435,498
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,basic_erv,+ Basic ERV,Peak Sensible Cooling Load,Btuh,17755.0837828,498
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,elec_heat_pumps,+ Elec. Heat Pumps,Peak Sensible Cooling Load,Btuh,17755.0837828,498
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,passive_house,Passive House,Peak Sensible Cooling Load,Btuh,15614.2306058,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,basic_erv,+ Basic ERV,Peak Sensible Cooling Load,Btuh,17753.8632747,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,elec_heat_pumps,+ Elec. Heat Pumps,Peak Sensible Cooling Load,Btuh,17753.8632747,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,passive_house,Passive House,Peak Sensible Cooling Load,Btuh,15408.3004158,498
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,code_minimum,Code Minimum,Peak Latent Cooling Load,Btuh,4649.63016057,499
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,improved_envelope,Improved Envelope,Peak Latent Cooling Load,Btuh,4442.34279951,499
 peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,as_drawn_envelope,As-Drawn Envelope,Peak Latent Cooling Load,Btuh,4442.34279951,499
@@ -812,21 +812,21 @@ peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,passive_
 co2e,co2e.heating,Heating,code_minimum,Code Minimum,Heating,tonsCO2e,7.56645397365,502
 co2e,co2e.heating,Heating,improved_envelope,Improved Envelope,Heating,tonsCO2e,5.41314445551,502
 co2e,co2e.heating,Heating,as_drawn_envelope,As-Drawn Envelope,Heating,tonsCO2e,3.81017333044,502
-co2e,co2e.heating,Heating,basic_erv,+ Basic ERV,Heating,tonsCO2e,3.31547260108,502
-co2e,co2e.heating,Heating,elec_heat_pumps,+ Elec. Heat Pumps,Heating,tonsCO2e,2.96036913471,502
-co2e,co2e.heating,Heating,passive_house,Passive House,Heating,tonsCO2e,1.91286831026,502
+co2e,co2e.heating,Heating,basic_erv,+ Basic ERV,Heating,tonsCO2e,3.31454400634,502
+co2e,co2e.heating,Heating,elec_heat_pumps,+ Elec. Heat Pumps,Heating,tonsCO2e,2.95971593201,502
+co2e,co2e.heating,Heating,passive_house,Passive House,Heating,tonsCO2e,1.98497453345,502
 co2e,co2e.cooling,Cooling,code_minimum,Code Minimum,Cooling,tonsCO2e,0.916618961891,503
 co2e,co2e.cooling,Cooling,improved_envelope,Improved Envelope,Cooling,tonsCO2e,0.831946680246,503
 co2e,co2e.cooling,Cooling,as_drawn_envelope,As-Drawn Envelope,Cooling,tonsCO2e,0.800834281269,503
-co2e,co2e.cooling,Cooling,basic_erv,+ Basic ERV,Cooling,tonsCO2e,0.89400796599,503
-co2e,co2e.cooling,Cooling,elec_heat_pumps,+ Elec. Heat Pumps,Cooling,tonsCO2e,0.89400796599,503
-co2e,co2e.cooling,Cooling,passive_house,Passive House,Cooling,tonsCO2e,0.701747597036,503
+co2e,co2e.cooling,Cooling,basic_erv,+ Basic ERV,Cooling,tonsCO2e,0.893991738577,503
+co2e,co2e.cooling,Cooling,elec_heat_pumps,+ Elec. Heat Pumps,Cooling,tonsCO2e,0.893991738577,503
+co2e,co2e.cooling,Cooling,passive_house,Passive House,Cooling,tonsCO2e,0.69165465808,503
 co2e,co2e.dhw,DHW,code_minimum,Code Minimum,DHW,tonsCO2e,1.42572325442,504
 co2e,co2e.dhw,DHW,improved_envelope,Improved Envelope,DHW,tonsCO2e,1.42681353402,504
 co2e,co2e.dhw,DHW,as_drawn_envelope,As-Drawn Envelope,DHW,tonsCO2e,1.42994646347,504
-co2e,co2e.dhw,DHW,basic_erv,+ Basic ERV,DHW,tonsCO2e,1.43185710286,504
-co2e,co2e.dhw,DHW,elec_heat_pumps,+ Elec. Heat Pumps,DHW,tonsCO2e,0.898248405332,504
-co2e,co2e.dhw,DHW,passive_house,Passive House,DHW,tonsCO2e,0.888957589185,504
+co2e,co2e.dhw,DHW,basic_erv,+ Basic ERV,DHW,tonsCO2e,1.43186042729,504
+co2e,co2e.dhw,DHW,elec_heat_pumps,+ Elec. Heat Pumps,DHW,tonsCO2e,0.898233397385,504
+co2e,co2e.dhw,DHW,passive_house,Passive House,DHW,tonsCO2e,0.892315364498,504
 co2e,co2e.dishwashing,Dishwashing,code_minimum,Code Minimum,Dishwashing,tonsCO2e,0.113901890483,505
 co2e,co2e.dishwashing,Dishwashing,improved_envelope,Improved Envelope,Dishwashing,tonsCO2e,0.113901890483,505
 co2e,co2e.dishwashing,Dishwashing,as_drawn_envelope,As-Drawn Envelope,Dishwashing,tonsCO2e,0.113901890483,505
@@ -908,21 +908,21 @@ co2e,co2e.ipcc_limit,IPCC Limit,passive_house,Passive House,IPCC Limit,tonsCO2e,
 primary_energy_renewable,primary_energy_renewable.heating,Heating,code_minimum,Code Minimum,Heating,kWh,71545.7453017,520
 primary_energy_renewable,primary_energy_renewable.heating,Heating,improved_envelope,Improved Envelope,Heating,kWh,50893.8588995,520
 primary_energy_renewable,primary_energy_renewable.heating,Heating,as_drawn_envelope,As-Drawn Envelope,Heating,kWh,35548.562779,520
-primary_energy_renewable,primary_energy_renewable.heating,Heating,basic_erv,+ Basic ERV,Heating,kWh,30240.6372951,520
-primary_energy_renewable,primary_energy_renewable.heating,Heating,elec_heat_pumps,+ Elec. Heat Pumps,Heating,kWh,15426.379565,520
-primary_energy_renewable,primary_energy_renewable.heating,Heating,passive_house,Passive House,Heating,kWh,9967.88956682,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,basic_erv,+ Basic ERV,Heating,kWh,30231.7477062,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,elec_heat_pumps,+ Elec. Heat Pumps,Heating,kWh,15422.9757486,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,passive_house,Passive House,Heating,kWh,10343.6325629,520
 primary_energy_renewable,primary_energy_renewable.cooling,Cooling,code_minimum,Code Minimum,Cooling,kWh,4624.76984444,521
 primary_energy_renewable,primary_energy_renewable.cooling,Cooling,improved_envelope,Improved Envelope,Cooling,kWh,4197.16806174,521
 primary_energy_renewable,primary_energy_renewable.cooling,Cooling,as_drawn_envelope,As-Drawn Envelope,Cooling,kWh,4034.05682567,521
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,basic_erv,+ Basic ERV,Cooling,kWh,4503.35596798,521
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,elec_heat_pumps,+ Elec. Heat Pumps,Cooling,kWh,4503.35596798,521
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,passive_house,Passive House,Cooling,kWh,3544.33190259,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,basic_erv,+ Basic ERV,Cooling,kWh,4503.27422618,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,elec_heat_pumps,+ Elec. Heat Pumps,Cooling,kWh,4503.27422618,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,passive_house,Passive House,Cooling,kWh,3496.06181358,521
 primary_energy_renewable,primary_energy_renewable.dhw,DHW,code_minimum,Code Minimum,DHW,kWh,13362.5874774,522
 primary_energy_renewable,primary_energy_renewable.dhw,DHW,improved_envelope,Improved Envelope,DHW,kWh,13365.4726218,522
 primary_energy_renewable,primary_energy_renewable.dhw,DHW,as_drawn_envelope,As-Drawn Envelope,DHW,kWh,13395.7268008,522
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,basic_erv,+ Basic ERV,DHW,kWh,13414.1775279,522
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,elec_heat_pumps,+ Elec. Heat Pumps,DHW,kWh,3588.56801203,522
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,passive_house,Passive House,DHW,kWh,3551.45052266,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,basic_erv,+ Basic ERV,DHW,kWh,13414.2096314,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,elec_heat_pumps,+ Elec. Heat Pumps,DHW,kWh,3588.50805418,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,passive_house,Passive House,DHW,kWh,3564.86508038,522
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,code_minimum,Code Minimum,Dishwashing,kWh,474.831,523
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,improved_envelope,Improved Envelope,Dishwashing,kWh,474.831,523
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,as_drawn_envelope,As-Drawn Envelope,Dishwashing,kWh,474.831,523
@@ -1025,21 +1025,21 @@ report_inputs,report_inputs.total_site_energy,Total Site Energy,as_drawn_envelop
 report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),basic_erv,+ Basic ERV,Envelope Air Leakage Rate (q50),cfm/ft2,0.0919553293797,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),basic_erv,+ Basic ERV,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,basic_erv,+ Basic ERV,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,basic_erv,+ Basic ERV,Heat Demand,kWh/yr,15602.1660681,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,basic_erv,+ Basic ERV,Cooling Demand,kWh/yr,6476.67603719,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,basic_erv,+ Basic ERV,Total Primary Energy,kWh/yr,57702.7479508,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,basic_erv,+ Basic ERV,Total Site Energy,kWh/yr,35802.6008979,
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,basic_erv,+ Basic ERV,Heat Demand,kWh/yr,15597.2016676,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,basic_erv,+ Basic ERV,Cooling Demand,kWh/yr,6476.81237132,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,basic_erv,+ Basic ERV,Total Primary Energy,kWh/yr,57696.9332097,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,basic_erv,+ Basic ERV,Total Site Energy,kWh/yr,35797.4744309,
 report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),elec_heat_pumps,+ Elec. Heat Pumps,Envelope Air Leakage Rate (q50),cfm/ft2,0.0919553293797,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),elec_heat_pumps,+ Elec. Heat Pumps,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,elec_heat_pumps,+ Elec. Heat Pumps,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,elec_heat_pumps,+ Elec. Heat Pumps,Heat Demand,kWh/yr,15602.1660681,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,elec_heat_pumps,+ Elec. Heat Pumps,Cooling Demand,kWh/yr,6476.67603719,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,elec_heat_pumps,+ Elec. Heat Pumps,Total Primary Energy,kWh/yr,62339.0607264,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,elec_heat_pumps,+ Elec. Heat Pumps,Total Site Energy,kWh/yr,23976.5618179,
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,elec_heat_pumps,+ Elec. Heat Pumps,Heat Demand,kWh/yr,15597.2016676,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,elec_heat_pumps,+ Elec. Heat Pumps,Cooling Demand,kWh/yr,6476.81237132,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,elec_heat_pumps,+ Elec. Heat Pumps,Total Primary Energy,kWh/yr,62332.8786498,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,elec_heat_pumps,+ Elec. Heat Pumps,Total Site Energy,kWh/yr,23974.1840961,
 report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),passive_house,Passive House,Envelope Air Leakage Rate (q50),cfm/ft2,0.0459776646899,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),passive_house,Passive House,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,passive_house,Passive House,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,passive_house,Passive House,Heat Demand,kWh/yr,9846.80123725,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,passive_house,Passive House,Cooling Demand,kWh/yr,5610.10734743,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,passive_house,Passive House,Total Primary Energy,kWh/yr,40411.890494,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,passive_house,Passive House,Total Site Energy,kWh/yr,15543.0348054,
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,passive_house,Passive House,Heat Demand,kWh/yr,10365.772746,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,passive_house,Passive House,Cooling Demand,kWh/yr,5441.27797334,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,passive_house,Passive House,Total Primary Energy,kWh/yr,41002.3440718,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,passive_house,Passive House,Total Site Energy,kWh/yr,15770.1323353,
